@@ -50,7 +50,6 @@ var bird = {
 	id : "bird",
 	width : 25,
 	height : 25,
-	color : "red",
 	position : {
 		x : 100,
 		y : 100
@@ -96,27 +95,29 @@ function stop() {
 	
 // creation
 function createBackground() {
-	createElement("bg", config.world.width, config.world.height, {x:0,y:0}, "grey");
+	createElement("bg", config.world.width, config.world.height, {x:0,y:0});
 };
 	
 function createBird() {
-	bird.model = createElement(bird.id, bird.width, bird.height, bird.position, bird.color);
+	bird.model = createElement(bird.id, bird.width, bird.height, bird.position);
 };
 	
 function createPipes() {
 	var topHeight = Math.min(config.world.height - config.pipe.buffer, parseInt(Math.random() * config.world.height));
 	var bottomHeight = config.world.height - topHeight - config.pipe.buffer; 
-	createPipe(topHeight, 0);  // top
-	createPipe(bottomHeight, config.world.height-bottomHeight); // bottom
+	createPipe(topHeight, 0, true);  // top
+	createPipe(bottomHeight, config.world.height-bottomHeight, false); // bottom
 	createScoreTrigger(config.world.height-topHeight-bottomHeight, topHeight); // trigger of score points
 };
 	
-function createPipe(height, posY) {
+function createPipe(height, posY, isTop) {
 	var p = {
 		width: config.pipe.width,
 		id : "pipe",
 		height: height,
 		isActive : true,
+		bottomOffset : 10,
+		isTop : isTop,
 		position : {
 			x : config.world.width - config.pipe.width,
 			y : posY
@@ -124,17 +125,22 @@ function createPipe(height, posY) {
 		setX : function(posX) {
 			this.position.x = posX;
 			this.model.style.left = asPx(posX);
+			// this.modelBody.style.left = asPx(posX + p.bottomOffset/2);
 		},
 		setY : function(posY) {
 			this.position.y = posY;
 			this.model.style.top = asPx(posY);
+			// this.modelBody.style.top = asPx(posY);
 		},
 		deactivate : function() {
 			this.isActive = false;
 			this.model.style.display = "none";
+			// this.modelBody.style.display = "none";
 		}
+		
 	};
-	p.model = createElement(p.id, p.width, p.height, { x: p.position.x, y:p.position.y }, "green");
+	// p.modelBody = createElement(p.id+"Body", p.width-p.bottomOffset, p.height, { x: p.position.x + p.bottomOffset/2, y:p.position.y });
+	p.model = createElement(p.id+"Head", p.width, p.height, { x: p.position.x, y:p.position.y });
 	pipes[pipes.length] = p;
 };
 
