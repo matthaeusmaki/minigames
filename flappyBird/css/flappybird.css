@@ -33,7 +33,7 @@ body {
 .bg-layer-0 {
 	background-image: url("../img/background-layer-0.png");
 	z-index: 20;
-	border-top: 1px solid darkgreen;
+	border-top: 1px solid #18bd18;
 }
 
 .bg-layer-1 {

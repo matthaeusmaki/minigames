@@ -6,6 +6,7 @@
 // TODO: Zusätzliche Steuerung (Mausklick)
 // TODO: Animation (flap flap)
 // TODO: GameLoop optimieren bzw. Performance verbessern
+// TODO: Sounds
 
 var isKeyDown = false;
 var isRunning = false;
