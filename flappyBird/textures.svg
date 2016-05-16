@@ -23,6 +23,16 @@
      id="defs4">
     <pattern
        inkscape:collect="always"
+       xlink:href="#pattern8214"
+       id="pattern8230"
+       patternTransform="matrix(1.5894568,0,0,-1.8279032,704.95817,1927.7134)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6747-5"
+       id="pattern8214"
+       patternTransform="matrix(1.5894568,0,0,-1.8279032,598.89215,1999.4342)" />
+    <pattern
+       inkscape:collect="always"
        xlink:href="#pattern6203"
        id="pattern6747"
        patternTransform="matrix(1.5894568,0,0,1.8279032,-164.79123,-1999.5426)" />
@@ -942,6 +952,28 @@
        id="linearGradient7592-4"
        xlink:href="#linearGradient6428-9"
        inkscape:collect="always" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6203-9-4"
+       id="pattern6747-5-5"
+       patternTransform="matrix(1.5894568,0,0,1.8279032,689.04827,-1999.6867)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#Wavy-8-6"
+       id="pattern6203-9-4"
+       patternTransform="translate(58.952178,-1276.0822)" />
+    <pattern
+       inkscape:stockid="Wavy"
+       id="Wavy-8-6"
+       height="5.1805778"
+       width="30.066020"
+       patternUnits="userSpaceOnUse"
+       inkscape:collect="always">
+      <path
+         id="path5939-3-8"
+         d="M 7.597,0.061 C 5.079,-0.187 2.656,0.302 -0.01,1.788 L -0.01,3.061 C 2.773,1.431 5.173,1.052 7.472,1.280 C 9.770,1.508 11.969,2.361 14.253,3.218 C 18.820,4.931 23.804,6.676 30.066,3.061 L 30.062,1.788 C 23.622,5.497 19.246,3.770 14.691,2.061 C 12.413,1.207 10.115,0.311 7.597,0.061 z "
+         style="fill:black;stroke:none;" />
+    </pattern>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -950,9 +982,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.24748737"
-     inkscape:cx="2322.4076"
-     inkscape:cy="994.74815"
+     inkscape:zoom="0.7"
+     inkscape:cx="1326.5715"
+     inkscape:cy="419.88186"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -2602,48 +2634,48 @@
       </g>
     </g>
     <rect
-       style="color:#000000;fill:#2dd412;fill-opacity:1;stroke:#000000;stroke-width:0.16335136;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="rect4570-0"
-       width="794.52972"
-       height="28.724792"
-       x="768.45123"
-       y="-940.67505"
-       transform="scale(1,-1)"
-       inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <rect
-       style="color:#000000;fill:#e6da82;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="rect4572-9"
-       width="794.72839"
-       height="367.4534"
-       x="768.35187"
-       y="940.79004"
-       inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background-ground.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <rect
        style="fill:none;stroke:none"
        width="499.875"
        height="15.714614"
        x="892.11627"
        y="615.36328"
        id="rect6177-8" />
-    <rect
-       style="color:#000000;fill:url(#pattern6747-5);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.09583448;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="rect6179-0"
-       width="794.52972"
-       height="28.724792"
-       x="768.35187"
-       y="-940.67505"
-       transform="scale(1,-1)"
-       inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+    <g
+       id="g8232"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background-layer-0.png">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background-layer-0.png"
+         transform="scale(1,-1)"
+         y="-868.70325"
+         x="815.16919"
+         height="28.727982"
+         width="763.72327"
+         id="rect4570-0"
+         style="color:#000000;fill:#2dd412;fill-opacity:1;stroke:none;stroke-width:0.16016211000000000;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background-layer-0.png"
+         y="868.81665"
+         x="815.07141"
+         height="367.4534"
+         width="763.91876"
+         id="rect4572-9"
+         style="color:#000000;fill:#e6da82;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         inkscape:connector-curvature="0"
+         id="rect6179-0"
+         d="m 815.19102,839.96667 0,28.75 763.59378,0 0,-28.75 -763.59378,0 z"
+         style="color:#000000;fill:url(#pattern8230);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.09583448;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    </g>
     <g
        id="g6289-4-4-3"
        transform="matrix(1.482392,0,0,1.482392,1836.3613,-99.372322)"
-       inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+       inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background-layer-1.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90">
       <path
@@ -2690,7 +2722,7 @@
     <g
        id="g6289-4-4-4-1"
        transform="matrix(1.7100966,0,0,1.8905092,1935.3917,-364.79794)"
-       inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+       inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background-layer-1.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90">
       <path
@@ -2737,7 +2769,7 @@
     <g
        id="g6289-4-2"
        transform="matrix(1.8278748,0,0,1.8278748,1662.9094,-343.27372)"
-       inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+       inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background-layer-1.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90">
       <path
@@ -2784,7 +2816,7 @@
     <g
        id="g6289-9-9"
        transform="matrix(1.8278748,0,0,1.8278748,1541.4863,-317.16122)"
-       inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+       inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background-layer-1.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90">
       <path
@@ -2831,7 +2863,7 @@
     <g
        id="g6289-3"
        transform="matrix(1.8278748,0,0,1.8278748,1420.0622,-328.34059)"
-       inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+       inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background-layer-1.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90">
       <path
@@ -2889,7 +2921,7 @@
        width="794.72839"
        id="rect6426-4"
        style="color:#000000;fill:url(#linearGradient7592-4);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+       inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background-layer-2.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
@@ -2898,11 +2930,14 @@
        height="15.714614"
        x="2591.1929"
        y="617.38361"
-       id="rect6177-83" />
+       id="rect6177-83"
+       inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background-layer-2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <g
        id="g6783-3"
        transform="translate(1802.3727,49.641591)"
-       inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+       inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background-layer-2.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90">
       <g
@@ -3053,7 +3088,7 @@
     <g
        id="g6766-75"
        transform="translate(1738.7331,0.14412082)"
-       inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+       inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background-layer-2.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90">
       <g
@@ -3204,7 +3239,7 @@
     <g
        id="g6749-4"
        transform="translate(1691.256,49.641591)"
-       inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+       inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background-layer-2.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90">
       <g
@@ -3351,6 +3386,42 @@
            d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
            transform="matrix(0.5250368,0,0,0.5250368,105.01453,383.36721)" />
       </g>
+    </g>
+    <g
+       id="g8167-1"
+       transform="translate(-262.63969,557.48907)">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background-layer-0.png"
+         transform="scale(1,-1)"
+         y="-940.67505"
+         x="768.45123"
+         height="28.724792"
+         width="794.52972"
+         id="rect4570-0-5"
+         style="color:#000000;fill:#2dd412;fill-opacity:1;stroke:#000000;stroke-width:0.16335136;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background-layer-0.png"
+         y="940.79004"
+         x="768.35187"
+         height="367.4534"
+         width="794.72839"
+         id="rect4572-9-8"
+         style="color:#000000;fill:#e6da82;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background-layer-0.png"
+         transform="scale(1,-1)"
+         y="-940.67505"
+         x="768.35187"
+         height="28.724792"
+         width="794.52972"
+         id="rect6179-0-5"
+         style="color:#000000;fill:url(#pattern6747-5-5);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.09583448;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     </g>
   </g>
 </svg>
