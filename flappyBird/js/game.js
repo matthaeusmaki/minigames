@@ -1,12 +1,10 @@
 /**
  * Game Logic
  */
-// done: Refactoring
-// done: Punktebedingung -> Punkte trigger, Kollision mit Punktetrigger
-
-// TODO: reset
-// TODO: Texturen 
-// TODO: Animation (flap flap, background)
+// TODO: Startmenu (tap to start)
+// TODO: reset (tap to restart)
+// TODO: Zusätzliche Steuerung (Mausklick)
+// TODO: Animation (flap flap)
 // TODO: GameLoop optimieren bzw. Performance verbessern
 
 var isKeyDown = false;
@@ -19,6 +17,8 @@ var pipeTime = 0;
 var score = {
 	count : 0,
 	model : undefined,
+	width: 30,
+	height: 30,
 	addPoint : function() {
 		this.count++;
 		this.model.innerText = this.count;
@@ -146,7 +146,7 @@ function createPipe(height, posY, isTop) {
 		
 	};
 	// p.modelBody = createElement(p.id+"Body", p.width-p.bottomOffset, p.height, { x: p.position.x + p.bottomOffset/2, y:p.position.y });
-	p.model = createElement(p.id+"Head", p.width, p.height, { x: p.position.x, y:p.position.y });
+	p.model = createElement(p.id, p.width, p.height, { x: p.position.x, y:p.position.y });
 	pipes[pipes.length] = p;
 };
 
@@ -178,7 +178,7 @@ function createScoreTrigger(height, posY) {
 };
 	
 function createScore() {
-	score.model = createElement("score", 50, 50, {x: config.world.width-50, y:0}, "");
+	score.model = createElement("score", score.width, score.height, {x: 10, y:10});
 	score.model.innerText = score.count;
 };
 	
@@ -356,11 +356,9 @@ var FPSinfo = {
 		box = document.createElement("div");
 		box.style.position = "absolute";
 		box.style.top = asPx(10);
-		box.style.left = asPx(10);
+		box.style.left = asPx(config.world.width-60);
 		box.style.border = "1px solid black";
-		box.style.backgroundColor = "white";
 		box.style.zIndex = "999";
-		box.style.opacity = "0.5";
 		box.id = "fps"
 		box.innerText = "fps: ";
 		document.body.appendChild(box);

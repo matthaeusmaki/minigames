@@ -1,6 +1,10 @@
 /*
  * Stylesheet for flappy bird
  */
+body {
+	background-color: #635c5c;
+}
+ 
 .bird {
 	background-image: url("../img/bird.png");
 	background-size: 25px;
@@ -8,7 +12,7 @@
 	z-index:11;
 }
 
-.pipeBody, .pipeHead {
+.pipeBody, .pipe {
 	background-image: url("../img/pipe01.png");
 	border: 1px solid darkgreen;
 	z-index:10;
@@ -41,4 +45,28 @@
 .bg-layer-2 {
 	background-image: url("../img/background-layer-2.png");
 	background-size: 800px 400px;
+}
+
+#fps {
+	z-index: 100;
+	background-color: white;
+	opacity: 0.5;
+	border: 1px solid black;
+	color: black;
+	padding: 2px;
+}
+
+.score {
+	z-index: 100;
+	background-color: orange;
+	border-top: 2px solid #ffd800;
+	border-left: 2px solid #ffd800;
+	border-bottom: 2px solid #d1b207;
+	border-right: 2px solid #d1b207;
+	color: #4B6D76;
+	padding: 5px;
+	font-family: Verdana, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
 }
