@@ -68,6 +68,10 @@ var bird = {
 		this.model.style.top = asPx(posY);
 	}
 };
+
+var background = {
+	layer : []
+};
 	
 var pipes = [];
 	
@@ -95,7 +99,9 @@ function stop() {
 	
 // creation
 function createBackground() {
-	createElement("bg", config.world.width, config.world.height, {x:0,y:0});
+	background.layer.push(createElement("bg-layer-0", config.world.width, 50, {x:0, y:config.world.height})); // ground
+	background.layer.push(createElement("bg-layer-1", config.world.width, 40, {x:0, y:config.world.height - 40})); // hedges
+	background.layer.push(createElement("bg-layer-2", config.world.width, config.world.height, {x:0, y:0})); // sky and clouds
 };
 	
 function createBird() {
@@ -186,6 +192,7 @@ function update() {
 		updateBird();
 		updatePipes();
 		checkCollision();
+		updateBackground();
 		
 		var newTime = new Date().getTime();
 		deltaTime = newTime- startTime; //Math.max(16, newTime- this.GAME.startTime);
@@ -267,6 +274,13 @@ function checkCollision() {
 	}
 };
 
+function updateBackground() {
+	for (var i = 0; i < background.layer.length; i++) {
+		var bg = background.layer[i];
+		bg.style.backgroundPosition = asPx(asNum(bg.style.backgroundPosition) - config.pipe.speed / (i+1)) + " 0";
+	}
+};
+
 // controlls
 function keydown(e) {
 	// console.log(e);
@@ -306,6 +320,9 @@ function asPx(value) {
 }
 
 function asNum(value) {
+	if (value == undefined || value == "") {
+		return 0;
+	}
 	return parseInt(value.replace("px", ""));
 }
 

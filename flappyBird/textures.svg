@@ -21,6 +21,16 @@
    inkscape:export-ydpi="90">
   <defs
      id="defs4">
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6203"
+       id="pattern6747"
+       patternTransform="matrix(1.5894568,0,0,1.8279032,-164.79123,-1999.5426)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6203"
+       id="pattern6745"
+       patternTransform="matrix(1.5894568,0,0,1.8279032,-164.79123,-1999.5426)" />
     <linearGradient
        id="linearGradient6428">
       <stop
@@ -192,9 +202,9 @@
       <stop
          id="stop3900-4"
          offset="0"
-         style="stop-color:#00d900;stop-opacity:0.74901962;" />
+         style="stop-color:#00d900;stop-opacity:1;" />
       <stop
-         style="stop-color:#008700;stop-opacity:0.62352943;"
+         style="stop-color:#008700;stop-opacity:1;"
          offset="0.38718131"
          id="stop3902-9" />
       <stop
@@ -630,7 +640,308 @@
        y1="680.79865"
        x2="332.59451"
        y2="481.21548"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.5894568,0,0,1.8279032,-258.49317,-333.01208)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6203-3"
+       id="pattern6745-2"
+       patternTransform="matrix(1.5894568,0,0,1.8279032,1047.6179,-1370.1175)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#Wavy-2"
+       id="pattern6203-3"
+       patternTransform="translate(58.952178,-1276.0822)" />
+    <pattern
+       inkscape:stockid="Wavy"
+       id="Wavy-2"
+       height="5.1805778"
+       width="30.066020"
+       patternUnits="userSpaceOnUse"
+       inkscape:collect="always">
+      <path
+         id="path5939-9"
+         d="M 7.597,0.061 C 5.079,-0.187 2.656,0.302 -0.01,1.788 L -0.01,3.061 C 2.773,1.431 5.173,1.052 7.472,1.280 C 9.770,1.508 11.969,2.361 14.253,3.218 C 18.820,4.931 23.804,6.676 30.066,3.061 L 30.062,1.788 C 23.622,5.497 19.246,3.770 14.691,2.061 C 12.413,1.207 10.115,0.311 7.597,0.061 z "
+         style="fill:black;stroke:none;" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6203-3"
+       id="pattern6747-4"
+       patternTransform="matrix(1.5894568,0,0,1.8279032,1047.6179,-1370.1175)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#Wavy-2"
+       id="pattern6815"
+       patternTransform="translate(58.952178,-1276.0822)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6428-2"
+       id="linearGradient6434-9"
+       x1="332.59451"
+       y1="680.79865"
+       x2="332.59451"
+       y2="481.21548"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.5894568,0,0,1.8279032,503.16185,-357.25574)" />
+    <linearGradient
+       id="linearGradient6428-2">
+      <stop
+         style="stop-color:#49e2e8;stop-opacity:1;"
+         offset="0"
+         id="stop6430-4" />
+      <stop
+         id="stop6436-9"
+         offset="1"
+         style="stop-color:#15a0e7;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       y2="481.21548"
+       x2="332.59451"
+       y1="680.79865"
+       x1="332.59451"
+       gradientTransform="matrix(1.5894568,0,0,1.8279032,953.916,-962.43713)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient6888"
+       xlink:href="#linearGradient6428-2"
+       inkscape:collect="always" />
+    <pattern
+       inkscape:stockid="Wavy"
+       id="Wavy-25"
+       height="5.1805778"
+       width="30.066020"
+       patternUnits="userSpaceOnUse"
+       inkscape:collect="always">
+      <path
+         id="path5939-2"
+         d="M 7.597,0.061 C 5.079,-0.187 2.656,0.302 -0.01,1.788 L -0.01,3.061 C 2.773,1.431 5.173,1.052 7.472,1.280 C 9.770,1.508 11.969,2.361 14.253,3.218 C 18.820,4.931 23.804,6.676 30.066,3.061 L 30.062,1.788 C 23.622,5.497 19.246,3.770 14.691,2.061 C 12.413,1.207 10.115,0.311 7.597,0.061 z "
+         style="fill:black;stroke:none;" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#Wavy-25"
+       id="pattern7240"
+       patternTransform="translate(58.952178,-1276.0822)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6428-0"
+       id="linearGradient6434-3"
+       x1="332.59451"
+       y1="680.79865"
+       x2="332.59451"
+       y2="481.21548"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.5894568,0,0,1.8279032,503.16185,-357.25574)" />
+    <linearGradient
+       id="linearGradient6428-0">
+      <stop
+         style="stop-color:#49e2e8;stop-opacity:1;"
+         offset="0"
+         id="stop6430-8" />
+      <stop
+         id="stop6436-7"
+         offset="1"
+         style="stop-color:#15a0e7;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       y2="481.21548"
+       x2="332.59451"
+       y1="680.79865"
+       x1="332.59451"
+       gradientTransform="matrix(1.5894568,0,0,1.8279032,745.34458,-889.69947)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient7318"
+       xlink:href="#linearGradient6428-0"
+       inkscape:collect="always" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6203-9"
+       id="pattern6745-4"
+       patternTransform="matrix(1.5894568,0,0,1.8279032,689.04827,-1999.6867)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#Wavy-8"
+       id="pattern6203-9"
+       patternTransform="translate(58.952178,-1276.0822)" />
+    <pattern
+       inkscape:stockid="Wavy"
+       id="Wavy-8"
+       height="5.1805778"
+       width="30.066020"
+       patternUnits="userSpaceOnUse"
+       inkscape:collect="always">
+      <path
+         id="path5939-3"
+         d="M 7.597,0.061 C 5.079,-0.187 2.656,0.302 -0.01,1.788 L -0.01,3.061 C 2.773,1.431 5.173,1.052 7.472,1.280 C 9.770,1.508 11.969,2.361 14.253,3.218 C 18.820,4.931 23.804,6.676 30.066,3.061 L 30.062,1.788 C 23.622,5.497 19.246,3.770 14.691,2.061 C 12.413,1.207 10.115,0.311 7.597,0.061 z "
+         style="fill:black;stroke:none;" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6203-9"
+       id="pattern6747-5"
+       patternTransform="matrix(1.5894568,0,0,1.8279032,689.04827,-1999.6867)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#Wavy-8"
+       id="pattern7502"
+       patternTransform="translate(58.952178,-1276.0822)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6428-4"
+       id="linearGradient6434-0"
+       x1="332.59451"
+       y1="680.79865"
+       x2="332.59451"
+       y2="481.21548"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.5894568,0,0,1.8279032,-258.49317,-333.01208)" />
+    <linearGradient
+       id="linearGradient6428-4">
+      <stop
+         style="stop-color:#49e2e8;stop-opacity:1;"
+         offset="0"
+         id="stop6430-3" />
+      <stop
+         id="stop6436-5"
+         offset="1"
+         style="stop-color:#15a0e7;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       y2="481.21548"
+       x2="332.59451"
+       y1="680.79865"
+       x1="332.59451"
+       gradientTransform="matrix(1.5894568,0,0,1.8279032,595.34633,-332.86797)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient7592"
+       xlink:href="#linearGradient6428-4"
+       inkscape:collect="always" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6203-98"
+       id="pattern6745-1"
+       patternTransform="matrix(1.5894568,0,0,1.8279032,1543.6373,-1997.6665)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#Wavy-1"
+       id="pattern6203-98"
+       patternTransform="translate(58.952178,-1276.0822)" />
+    <pattern
+       inkscape:stockid="Wavy"
+       id="Wavy-1"
+       height="5.1805778"
+       width="30.066020"
+       patternUnits="userSpaceOnUse"
+       inkscape:collect="always">
+      <path
+         id="path5939-0"
+         d="M 7.597,0.061 C 5.079,-0.187 2.656,0.302 -0.01,1.788 L -0.01,3.061 C 2.773,1.431 5.173,1.052 7.472,1.280 C 9.770,1.508 11.969,2.361 14.253,3.218 C 18.820,4.931 23.804,6.676 30.066,3.061 L 30.062,1.788 C 23.622,5.497 19.246,3.770 14.691,2.061 C 12.413,1.207 10.115,0.311 7.597,0.061 z "
+         style="fill:black;stroke:none;" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6203-98"
+       id="pattern6747-3"
+       patternTransform="matrix(1.5894568,0,0,1.8279032,1543.6373,-1997.6665)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#Wavy-1"
+       id="pattern7502-2"
+       patternTransform="translate(58.952178,-1276.0822)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6428-03"
+       id="linearGradient6434-5"
+       x1="332.59451"
+       y1="680.79865"
+       x2="332.59451"
+       y2="481.21548"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.5894568,0,0,1.8279032,-258.49317,-333.01208)" />
+    <linearGradient
+       id="linearGradient6428-03">
+      <stop
+         style="stop-color:#49e2e8;stop-opacity:1;"
+         offset="0"
+         id="stop6430-2" />
+      <stop
+         id="stop6436-2"
+         offset="1"
+         style="stop-color:#15a0e7;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       y2="481.21548"
+       x2="332.59451"
+       y1="680.79865"
+       x1="332.59451"
+       gradientTransform="matrix(1.5894568,0,0,1.8279032,1449.9354,-334.88827)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient7592-6"
+       xlink:href="#linearGradient6428-03"
+       inkscape:collect="always" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6203-0"
+       id="pattern6745-45"
+       patternTransform="matrix(1.5894568,0,0,1.8279032,2388.1249,-2001.707)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#Wavy-20"
+       id="pattern6203-0"
+       patternTransform="translate(58.952178,-1276.0822)" />
+    <pattern
+       inkscape:stockid="Wavy"
+       id="Wavy-20"
+       height="5.1805778"
+       width="30.066020"
+       patternUnits="userSpaceOnUse"
+       inkscape:collect="always">
+      <path
+         id="path5939-1"
+         d="M 7.597,0.061 C 5.079,-0.187 2.656,0.302 -0.01,1.788 L -0.01,3.061 C 2.773,1.431 5.173,1.052 7.472,1.280 C 9.770,1.508 11.969,2.361 14.253,3.218 C 18.820,4.931 23.804,6.676 30.066,3.061 L 30.062,1.788 C 23.622,5.497 19.246,3.770 14.691,2.061 C 12.413,1.207 10.115,0.311 7.597,0.061 z "
+         style="fill:black;stroke:none;" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6203-0"
+       id="pattern6747-6"
+       patternTransform="matrix(1.5894568,0,0,1.8279032,2388.1249,-2001.707)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#Wavy-20"
+       id="pattern7502-9"
+       patternTransform="translate(58.952178,-1276.0822)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6428-9"
+       id="linearGradient6434-37"
+       x1="332.59451"
+       y1="680.79865"
+       x2="332.59451"
+       y2="481.21548"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.5894568,0,0,1.8279032,-258.49317,-333.01208)" />
+    <linearGradient
+       id="linearGradient6428-9">
+      <stop
+         style="stop-color:#49e2e8;stop-opacity:1;"
+         offset="0"
+         id="stop6430-1" />
+      <stop
+         id="stop6436-52"
+         offset="1"
+         style="stop-color:#15a0e7;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       y2="481.21548"
+       x2="332.59451"
+       y1="680.79865"
+       x1="332.59451"
+       gradientTransform="matrix(1.5894568,0,0,1.8279032,2294.4229,-330.84766)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient7592-4"
+       xlink:href="#linearGradient6428-9"
+       inkscape:collect="always" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -639,9 +950,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="241.29875"
-     inkscape:cy="361.81492"
+     inkscape:zoom="0.24748737"
+     inkscape:cx="2322.4076"
+     inkscape:cy="994.74815"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -669,59 +980,21 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       y="480.78638"
-       x="108.84572"
-       height="201.02454"
-       width="500"
+       y="545.81891"
+       x="-85.487663"
+       height="367.4534"
+       width="794.72839"
        id="rect6426"
-       style="color:#000000;fill:url(#linearGradient6434);fill-opacity:1.0;fill-rule:nonzero;stroke:none;stroke-width:0.10000000000000001;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
-    <g
-       id="g6289-4-4-0"
-       transform="translate(396.4291,3.2589057)">
-      <path
-         transform="matrix(0.3395654,0,0,0.3395654,137.40742,471.72721)"
-         d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
-         sodipodi:ry="31.071428"
-         sodipodi:rx="45.714287"
-         sodipodi:cy="567.7193"
-         sodipodi:cx="148.57143"
-         id="path6226-3-3-8-9-9"
-         style="color:#000000;fill:#12d412;fill-opacity:1;fill-rule:nonzero;stroke:#21a23c;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         sodipodi:type="arc" />
-      <path
-         transform="matrix(0.5250368,0,0,0.5250368,70.402046,374.1378)"
-         d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
-         sodipodi:ry="31.071428"
-         sodipodi:rx="45.714287"
-         sodipodi:cy="567.7193"
-         sodipodi:cx="148.57143"
-         id="path6226-4-0-0"
-         style="color:#000000;fill:#12d412;fill-opacity:1;fill-rule:nonzero;stroke:#21a23c;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         sodipodi:type="arc" />
-      <path
-         transform="matrix(0.5250368,0,0,0.5250368,90.562028,364.40658)"
-         d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
-         sodipodi:ry="31.071428"
-         sodipodi:rx="45.714287"
-         sodipodi:cy="567.7193"
-         sodipodi:cx="148.57143"
-         id="path6226-2-39-5-8"
-         style="color:#000000;fill:#12d412;fill-opacity:1;fill-rule:nonzero;stroke:#21a23c;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         sodipodi:type="arc" />
-      <path
-         transform="matrix(0.5250368,0,0,0.5250368,105.01453,383.36721)"
-         d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
-         sodipodi:ry="31.071428"
-         sodipodi:rx="45.714287"
-         sodipodi:cy="567.7193"
-         sodipodi:cx="148.57143"
-         id="path6226-3-2-7-0"
-         style="color:#000000;fill:#12d412;fill-opacity:1;fill-rule:nonzero;stroke:#21a23c;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         sodipodi:type="arc" />
-    </g>
+       style="color:#000000;fill:url(#linearGradient6434);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <g
        id="g6289-4-4"
-       transform="matrix(0.81099208,0,0,0.81099208,225.60746,128.83617)">
+       transform="matrix(1.482392,0,0,1.482392,127.93274,-97.496129)"
+       inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <path
          transform="matrix(0.3395654,0,0,0.3395654,137.40742,471.72721)"
          d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
@@ -765,7 +1038,10 @@
     </g>
     <g
        id="g6289-4-4-4"
-       transform="matrix(0.93556548,0,0,1.0342662,279.78536,-16.373785)">
+       transform="matrix(1.7100966,0,0,1.8905092,226.96316,-362.92175)"
+       inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <path
          transform="matrix(0.3395654,0,0,0.3395654,137.40742,471.72721)"
          d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
@@ -809,7 +1085,10 @@
     </g>
     <g
        id="g6289-4"
-       transform="translate(130.71482,-4.598237)">
+       transform="matrix(1.8278748,0,0,1.8278748,-45.519139,-341.39753)"
+       inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <path
          transform="matrix(0.3395654,0,0,0.3395654,137.40742,471.72721)"
          d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
@@ -853,7 +1132,10 @@
     </g>
     <g
        id="g6289-9"
-       transform="translate(64.286246,9.6874774)">
+       transform="matrix(1.8278748,0,0,1.8278748,-166.94224,-315.28503)"
+       inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <path
          transform="matrix(0.3395654,0,0,0.3395654,137.40742,471.72721)"
          d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
@@ -897,7 +1179,10 @@
     </g>
     <g
        id="g6289"
-       transform="translate(-2.1428571,3.5714286)">
+       transform="matrix(1.8278748,0,0,1.8278748,-288.36633,-326.4644)"
+       inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <path
          transform="matrix(0.3395654,0,0,0.3395654,137.40742,471.72721)"
          d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
@@ -1221,20 +1506,26 @@
          sodipodi:type="arc" />
     </g>
     <rect
-       style="color:#000000;fill:#2dd412;fill-opacity:1;stroke:#000000;stroke-width:0.09583448;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="color:#000000;fill:#2dd412;fill-opacity:1;stroke:#000000;stroke-width:0.16335136;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect4570"
-       width="499.875"
-       height="15.714614"
-       x="108.90822"
-       y="-696.72345"
-       transform="scale(1,-1)" />
+       width="794.52972"
+       height="28.724792"
+       x="-85.388298"
+       y="-940.53101"
+       transform="scale(1,-1)"
+       inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <rect
        style="color:#000000;fill:#e6da82;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect4572"
-       width="500"
-       height="201.02454"
-       x="108.84572"
-       y="696.78638" />
+       width="794.72839"
+       height="367.4534"
+       x="-85.487663"
+       y="940.646"
+       inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background-ground.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <rect
        style="stroke:none;fill:none"
        width="499.875"
@@ -1243,33 +1534,1118 @@
        y="615.21918"
        id="rect6177" />
     <rect
-       style="color:#000000;fill:url(#pattern6203);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.09583448;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="color:#000000;fill:url(#pattern6747);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.09583448;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect6179"
-       width="499.875"
-       height="15.714614"
-       x="108.84572"
-       y="-696.72345"
-       transform="scale(1,-1)" />
-    <rect
+       width="794.52972"
+       height="28.724792"
+       x="-85.487663"
+       y="-940.53101"
        transform="scale(1,-1)"
-       y="-696.72345"
-       x="108.90822"
-       height="15.714614"
-       width="499.875"
-       id="rect6220"
-       style="color:#000000;fill:#2dd412;fill-opacity:1;stroke:#000000;stroke-width:0.09583448;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+       inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       id="g6783"
+       transform="translate(-750.54334,47.47717)"
+       inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+         style="fill:#c9ffff;fill-opacity:1;stroke:none"
+         transform="matrix(0.78990813,0,0,0.78990813,635.2736,73.571868)"
+         id="g6289-1">
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-3-3-5"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.3395654,0,0,0.3395654,137.40742,471.72721)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-1"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,70.402046,374.1378)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-2-0"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,90.562028,364.40658)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-3-39"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,105.01453,383.36721)" />
+      </g>
+      <g
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+         style="fill:#c9ffff;fill-opacity:1;stroke:none"
+         transform="matrix(1.2369004,0,0,1.2369004,600.89913,-193.55347)"
+         id="g6289-1-5">
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-3-3-5-8"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.3395654,0,0,0.3395654,137.40742,471.72721)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-1-9"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,70.402046,374.1378)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-2-0-6"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,90.562028,364.40658)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-3-39-2"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,105.01453,383.36721)" />
+      </g>
+      <g
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+         style="fill:#c9ffff;fill-opacity:1;stroke:none"
+         transform="matrix(1.0357539,0,0,0.96846075,697.9338,-21.943198)"
+         id="g6289-1-5-5">
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-3-3-5-8-7"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.3395654,0,0,0.3395654,137.40742,471.72721)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-1-9-6"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,70.402046,374.1378)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-2-0-6-3"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,90.562028,364.40658)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-3-39-2-8"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,105.01453,383.36721)" />
+      </g>
+    </g>
+    <g
+       id="g6766"
+       transform="translate(-814.18295,-2.0203049)"
+       inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+         style="fill:#c9ffff;fill-opacity:1;stroke:none"
+         transform="matrix(1.2369004,0,0,1.2369004,959.10699,-224.01959)"
+         id="g6289-1-5-59">
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-3-3-5-8-3"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.3395654,0,0,0.3395654,137.40742,471.72721)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-1-9-0"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,70.402046,374.1378)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-2-0-6-2"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,90.562028,364.40658)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-3-39-2-5"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,105.01453,383.36721)" />
+      </g>
+      <g
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+         style="fill:#c9ffff;fill-opacity:1;stroke:none"
+         transform="matrix(0.85695697,0,0,0.85695697,994.37238,55.290979)"
+         id="g6289-1-5-1">
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-3-3-5-8-5"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.3395654,0,0,0.3395654,137.40742,471.72721)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-1-9-7"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,70.402046,374.1378)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-2-0-6-7"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,90.562028,364.40658)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-3-39-2-9"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,105.01453,383.36721)" />
+      </g>
+      <g
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+         style="fill:#c9ffff;fill-opacity:1;stroke:none"
+         transform="matrix(1.2369004,0,0,1.2369004,1027.425,-216.63386)"
+         id="g6289-1-5-4">
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-3-3-5-8-1"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.3395654,0,0,0.3395654,137.40742,471.72721)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-1-9-78"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,70.402046,374.1378)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-2-0-6-5"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,90.562028,364.40658)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-3-39-2-7"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,105.01453,383.36721)" />
+      </g>
+    </g>
+    <g
+       id="g6749"
+       transform="translate(-861.66012,47.47717)"
+       inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+         style="fill:#c9ffff;fill-opacity:1;stroke:none"
+         transform="matrix(1.2369004,0,0,1.2369004,1304.3306,-187.87475)"
+         id="g6289-1-5-8">
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-3-3-5-8-8"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.3395654,0,0,0.3395654,137.40742,471.72721)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-1-9-4"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,70.402046,374.1378)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-2-0-6-23"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,90.562028,364.40658)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-3-39-2-84"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,105.01453,383.36721)" />
+      </g>
+      <g
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+         style="fill:#c9ffff;fill-opacity:1;stroke:none"
+         transform="matrix(0.66797212,0,0,0.66797212,1374.4558,222.49348)"
+         id="g6289-1-5-8-1">
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-3-3-5-8-8-3"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.3395654,0,0,0.3395654,137.40742,471.72721)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-1-9-4-0"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,70.402046,374.1378)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-2-0-6-23-4"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,90.562028,364.40658)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-3-39-2-84-1"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,105.01453,383.36721)" />
+      </g>
+      <g
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+         style="fill:#c9ffff;fill-opacity:1;stroke:none"
+         transform="matrix(0.80665194,0,0,0.80665194,1313.6114,105.15209)"
+         id="g6289-1-5-8-7">
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-3-3-5-8-8-7"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.3395654,0,0,0.3395654,137.40742,471.72721)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-1-9-4-2"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,70.402046,374.1378)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-2-0-6-23-1"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,90.562028,364.40658)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-3-39-2-84-3"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,105.01453,383.36721)" />
+      </g>
+    </g>
     <rect
+       y="-10.868483"
+       x="918.35004"
+       height="367.4534"
+       width="794.72839"
+       id="rect6426-2"
+       style="color:#000000;fill:url(#linearGradient7318);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       id="g6289-4-4-8"
+       transform="matrix(1.482392,0,0,1.482392,1131.7704,-654.18352)"
+       inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="matrix(0.3395654,0,0,0.3395654,137.40742,471.72721)"
+         d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+         sodipodi:ry="31.071428"
+         sodipodi:rx="45.714287"
+         sodipodi:cy="567.7193"
+         sodipodi:cx="148.57143"
+         id="path6226-3-3-8-9-3"
+         style="color:#000000;fill:#12d412;fill-opacity:1;fill-rule:nonzero;stroke:#21a23c;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(0.5250368,0,0,0.5250368,70.402046,374.1378)"
+         d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+         sodipodi:ry="31.071428"
+         sodipodi:rx="45.714287"
+         sodipodi:cy="567.7193"
+         sodipodi:cx="148.57143"
+         id="path6226-4-0-7"
+         style="color:#000000;fill:#12d412;fill-opacity:1;fill-rule:nonzero;stroke:#21a23c;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(0.5250368,0,0,0.5250368,90.562028,364.40658)"
+         d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+         sodipodi:ry="31.071428"
+         sodipodi:rx="45.714287"
+         sodipodi:cy="567.7193"
+         sodipodi:cx="148.57143"
+         id="path6226-2-39-5-5"
+         style="color:#000000;fill:#12d412;fill-opacity:1;fill-rule:nonzero;stroke:#21a23c;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(0.5250368,0,0,0.5250368,105.01453,383.36721)"
+         d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+         sodipodi:ry="31.071428"
+         sodipodi:rx="45.714287"
+         sodipodi:cy="567.7193"
+         sodipodi:cx="148.57143"
+         id="path6226-3-2-7-4"
+         style="color:#000000;fill:#12d412;fill-opacity:1;fill-rule:nonzero;stroke:#21a23c;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+    </g>
+    <g
+       id="g6289-4-1"
+       transform="matrix(1.8278748,0,0,1.8278748,958.31864,-898.08492)"
+       inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="matrix(0.3395654,0,0,0.3395654,137.40742,471.72721)"
+         d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+         sodipodi:ry="31.071428"
+         sodipodi:rx="45.714287"
+         sodipodi:cy="567.7193"
+         sodipodi:cx="148.57143"
+         id="path6226-3-3-8-8"
+         style="color:#000000;fill:#12d412;fill-opacity:1;fill-rule:nonzero;stroke:#21a23c;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(0.5250368,0,0,0.5250368,70.402046,374.1378)"
+         d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+         sodipodi:ry="31.071428"
+         sodipodi:rx="45.714287"
+         sodipodi:cy="567.7193"
+         sodipodi:cx="148.57143"
+         id="path6226-4-2"
+         style="color:#000000;fill:#12d412;fill-opacity:1;fill-rule:nonzero;stroke:#21a23c;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(0.5250368,0,0,0.5250368,90.562028,364.40658)"
+         d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+         sodipodi:ry="31.071428"
+         sodipodi:rx="45.714287"
+         sodipodi:cy="567.7193"
+         sodipodi:cx="148.57143"
+         id="path6226-2-39-9"
+         style="color:#000000;fill:#12d412;fill-opacity:1;fill-rule:nonzero;stroke:#21a23c;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(0.5250368,0,0,0.5250368,105.01453,383.36721)"
+         d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+         sodipodi:ry="31.071428"
+         sodipodi:rx="45.714287"
+         sodipodi:cy="567.7193"
+         sodipodi:cx="148.57143"
+         id="path6226-3-2-6"
+         style="color:#000000;fill:#12d412;fill-opacity:1;fill-rule:nonzero;stroke:#21a23c;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+    </g>
+    <g
+       id="g6289-8"
+       transform="matrix(1.8946992,0,0,1.6049599,707.17562,-739.17017)"
+       inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="matrix(0.3395654,0,0,0.3395654,137.40742,471.72721)"
+         d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+         sodipodi:ry="31.071428"
+         sodipodi:rx="45.714287"
+         sodipodi:cy="567.7193"
+         sodipodi:cx="148.57143"
+         id="path6226-3-3-9"
+         style="color:#000000;fill:#12d412;fill-opacity:1;fill-rule:nonzero;stroke:#21a23c;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(0.5250368,0,0,0.5250368,70.402046,374.1378)"
+         d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+         sodipodi:ry="31.071428"
+         sodipodi:rx="45.714287"
+         sodipodi:cy="567.7193"
+         sodipodi:cx="148.57143"
+         id="path6226-8"
+         style="color:#000000;fill:#12d412;fill-opacity:1;fill-rule:nonzero;stroke:#21a23c;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(0.5250368,0,0,0.5250368,90.562028,364.40658)"
+         d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+         sodipodi:ry="31.071428"
+         sodipodi:rx="45.714287"
+         sodipodi:cy="567.7193"
+         sodipodi:cx="148.57143"
+         id="path6226-2-1"
+         style="color:#000000;fill:#12d412;fill-opacity:1;fill-rule:nonzero;stroke:#21a23c;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(0.5250368,0,0,0.5250368,105.01453,383.36721)"
+         d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+         sodipodi:ry="31.071428"
+         sodipodi:rx="45.714287"
+         sodipodi:cy="567.7193"
+         sodipodi:cx="148.57143"
+         id="path6226-3-6"
+         style="color:#000000;fill:#12d412;fill-opacity:1;fill-rule:nonzero;stroke:#21a23c;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+    </g>
+    <g
+       id="g6783-1"
+       transform="translate(253.29441,-509.21023)"
+       inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+         style="fill:#c9ffff;fill-opacity:1;stroke:none"
+         transform="matrix(0.78990813,0,0,0.78990813,635.2736,73.571868)"
+         id="g6289-1-0">
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-3-3-5-1"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.3395654,0,0,0.3395654,137.40742,471.72721)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-1-2"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,70.402046,374.1378)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-2-0-2"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,90.562028,364.40658)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-3-39-8"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,105.01453,383.36721)" />
+      </g>
+      <g
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+         style="fill:#c9ffff;fill-opacity:1;stroke:none"
+         transform="matrix(1.2369004,0,0,1.2369004,600.89913,-193.55347)"
+         id="g6289-1-5-54">
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-3-3-5-8-6"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.3395654,0,0,0.3395654,137.40742,471.72721)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-1-9-77"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,70.402046,374.1378)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-2-0-6-34"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,90.562028,364.40658)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-3-39-2-4"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,105.01453,383.36721)" />
+      </g>
+      <g
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+         style="fill:#c9ffff;fill-opacity:1;stroke:none"
+         transform="matrix(1.0357539,0,0,0.96846075,697.9338,-21.943198)"
+         id="g6289-1-5-5-9">
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-3-3-5-8-7-1"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.3395654,0,0,0.3395654,137.40742,471.72721)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-1-9-6-8"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,70.402046,374.1378)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-2-0-6-3-3"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,90.562028,364.40658)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-3-39-2-8-8"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,105.01453,383.36721)" />
+      </g>
+    </g>
+    <g
+       id="g6766-7"
+       transform="translate(189.6548,-558.7077)"
+       inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+         style="fill:#c9ffff;fill-opacity:1;stroke:none"
+         transform="matrix(1.2369004,0,0,1.2369004,959.10699,-224.01959)"
+         id="g6289-1-5-59-9">
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-3-3-5-8-3-7"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.3395654,0,0,0.3395654,137.40742,471.72721)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-1-9-0-1"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,70.402046,374.1378)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-2-0-6-2-1"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,90.562028,364.40658)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-3-39-2-5-4"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,105.01453,383.36721)" />
+      </g>
+      <g
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+         style="fill:#c9ffff;fill-opacity:1;stroke:none"
+         transform="matrix(0.85695697,0,0,0.85695697,994.37238,55.290979)"
+         id="g6289-1-5-1-3">
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-3-3-5-8-5-5"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.3395654,0,0,0.3395654,137.40742,471.72721)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-1-9-7-2"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,70.402046,374.1378)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-2-0-6-7-9"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,90.562028,364.40658)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-3-39-2-9-1"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,105.01453,383.36721)" />
+      </g>
+      <g
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+         style="fill:#c9ffff;fill-opacity:1;stroke:none"
+         transform="matrix(1.2369004,0,0,1.2369004,1027.425,-216.63386)"
+         id="g6289-1-5-4-5">
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-3-3-5-8-1-5"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.3395654,0,0,0.3395654,137.40742,471.72721)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-1-9-78-6"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,70.402046,374.1378)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-2-0-6-5-7"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,90.562028,364.40658)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-3-39-2-7-9"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,105.01453,383.36721)" />
+      </g>
+    </g>
+    <g
+       id="g6749-0"
+       transform="translate(142.17763,-509.21023)"
+       inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+         style="fill:#c9ffff;fill-opacity:1;stroke:none"
+         transform="matrix(1.2369004,0,0,1.2369004,1304.3306,-187.87475)"
+         id="g6289-1-5-8-2">
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-3-3-5-8-8-31"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.3395654,0,0,0.3395654,137.40742,471.72721)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-1-9-4-9"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,70.402046,374.1378)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-2-0-6-23-8"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,90.562028,364.40658)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-3-39-2-84-7"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,105.01453,383.36721)" />
+      </g>
+      <g
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+         style="fill:#c9ffff;fill-opacity:1;stroke:none"
+         transform="matrix(0.66797212,0,0,0.66797212,1374.4558,222.49348)"
+         id="g6289-1-5-8-1-8">
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-3-3-5-8-8-3-4"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.3395654,0,0,0.3395654,137.40742,471.72721)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-1-9-4-0-4"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,70.402046,374.1378)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-2-0-6-23-4-4"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,90.562028,364.40658)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-3-39-2-84-1-3"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,105.01453,383.36721)" />
+      </g>
+      <g
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+         style="fill:#c9ffff;fill-opacity:1;stroke:none"
+         transform="matrix(0.80665194,0,0,0.80665194,1313.6114,105.15209)"
+         id="g6289-1-5-8-7-5">
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-3-3-5-8-8-7-8"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.3395654,0,0,0.3395654,137.40742,471.72721)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-1-9-4-2-0"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,70.402046,374.1378)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-2-0-6-23-1-2"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,90.562028,364.40658)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-3-39-2-84-3-9"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,105.01453,383.36721)" />
+      </g>
+    </g>
+    <rect
+       style="color:#000000;fill:#2dd412;fill-opacity:1;stroke:#000000;stroke-width:0.16335136;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect4570-0"
+       width="794.52972"
+       height="28.724792"
+       x="768.45123"
+       y="-940.67505"
        transform="scale(1,-1)"
-       y="-696.72345"
-       x="108.84572"
-       height="15.714614"
+       inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="color:#000000;fill:#e6da82;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect4572-9"
+       width="794.72839"
+       height="367.4534"
+       x="768.35187"
+       y="940.79004"
+       inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background-ground.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:none;stroke:none"
        width="499.875"
-       id="rect6222"
-       style="color:#000000;fill:url(#pattern6203);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.09583448;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+       height="15.714614"
+       x="892.11627"
+       y="615.36328"
+       id="rect6177-8" />
+    <rect
+       style="color:#000000;fill:url(#pattern6747-5);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.09583448;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect6179-0"
+       width="794.52972"
+       height="28.724792"
+       x="768.35187"
+       y="-940.67505"
+       transform="scale(1,-1)"
+       inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <g
-       id="g6289-1"
-       transform="matrix(0.43214563,0,0,0.43214563,86.476399,235.68794)"
-       style="fill:#c9ffff;fill-opacity:1;stroke:none">
+       id="g6289-4-4-3"
+       transform="matrix(1.482392,0,0,1.482392,1836.3613,-99.372322)"
+       inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <path
          transform="matrix(0.3395654,0,0,0.3395654,137.40742,471.72721)"
          d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
@@ -1277,8 +2653,8 @@
          sodipodi:rx="45.714287"
          sodipodi:cy="567.7193"
          sodipodi:cx="148.57143"
-         id="path6226-3-3-5"
-         style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="path6226-3-3-8-9-6"
+         style="color:#000000;fill:#12d412;fill-opacity:1;fill-rule:nonzero;stroke:#21a23c;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
          sodipodi:type="arc" />
       <path
          transform="matrix(0.5250368,0,0,0.5250368,70.402046,374.1378)"
@@ -1287,8 +2663,8 @@
          sodipodi:rx="45.714287"
          sodipodi:cy="567.7193"
          sodipodi:cx="148.57143"
-         id="path6226-1"
-         style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="path6226-4-0-1"
+         style="color:#000000;fill:#12d412;fill-opacity:1;fill-rule:nonzero;stroke:#21a23c;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
          sodipodi:type="arc" />
       <path
          transform="matrix(0.5250368,0,0,0.5250368,90.562028,364.40658)"
@@ -1297,8 +2673,8 @@
          sodipodi:rx="45.714287"
          sodipodi:cy="567.7193"
          sodipodi:cx="148.57143"
-         id="path6226-2-0"
-         style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="path6226-2-39-5-58"
+         style="color:#000000;fill:#12d412;fill-opacity:1;fill-rule:nonzero;stroke:#21a23c;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
          sodipodi:type="arc" />
       <path
          transform="matrix(0.5250368,0,0,0.5250368,105.01453,383.36721)"
@@ -1307,14 +2683,16 @@
          sodipodi:rx="45.714287"
          sodipodi:cy="567.7193"
          sodipodi:cx="148.57143"
-         id="path6226-3-39"
-         style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="path6226-3-2-7-2"
+         style="color:#000000;fill:#12d412;fill-opacity:1;fill-rule:nonzero;stroke:#21a23c;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
          sodipodi:type="arc" />
     </g>
     <g
-       id="g6289-1-5"
-       transform="matrix(0.6766877,0,0,0.6766877,67.670697,89.548105)"
-       style="fill:#c9ffff;fill-opacity:1;stroke:none">
+       id="g6289-4-4-4-1"
+       transform="matrix(1.7100966,0,0,1.8905092,1935.3917,-364.79794)"
+       inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <path
          transform="matrix(0.3395654,0,0,0.3395654,137.40742,471.72721)"
          d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
@@ -1322,8 +2700,8 @@
          sodipodi:rx="45.714287"
          sodipodi:cy="567.7193"
          sodipodi:cx="148.57143"
-         id="path6226-3-3-5-8"
-         style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="path6226-3-3-8-9-7-9"
+         style="color:#000000;fill:#12d412;fill-opacity:1;fill-rule:nonzero;stroke:#21a23c;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
          sodipodi:type="arc" />
       <path
          transform="matrix(0.5250368,0,0,0.5250368,70.402046,374.1378)"
@@ -1332,8 +2710,8 @@
          sodipodi:rx="45.714287"
          sodipodi:cy="567.7193"
          sodipodi:cx="148.57143"
-         id="path6226-1-9"
-         style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="path6226-4-0-6-3"
+         style="color:#000000;fill:#12d412;fill-opacity:1;fill-rule:nonzero;stroke:#21a23c;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
          sodipodi:type="arc" />
       <path
          transform="matrix(0.5250368,0,0,0.5250368,90.562028,364.40658)"
@@ -1342,8 +2720,8 @@
          sodipodi:rx="45.714287"
          sodipodi:cy="567.7193"
          sodipodi:cx="148.57143"
-         id="path6226-2-0-6"
-         style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="path6226-2-39-5-6-9"
+         style="color:#000000;fill:#12d412;fill-opacity:1;fill-rule:nonzero;stroke:#21a23c;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
          sodipodi:type="arc" />
       <path
          transform="matrix(0.5250368,0,0,0.5250368,105.01453,383.36721)"
@@ -1352,14 +2730,16 @@
          sodipodi:rx="45.714287"
          sodipodi:cy="567.7193"
          sodipodi:cx="148.57143"
-         id="path6226-3-39-2"
-         style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="path6226-3-2-7-3-7"
+         style="color:#000000;fill:#12d412;fill-opacity:1;fill-rule:nonzero;stroke:#21a23c;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
          sodipodi:type="arc" />
     </g>
     <g
-       id="g6289-1-5-5"
-       transform="matrix(0.56664377,0,0,0.52982881,120.75676,183.43323)"
-       style="fill:#c9ffff;fill-opacity:1;stroke:none">
+       id="g6289-4-2"
+       transform="matrix(1.8278748,0,0,1.8278748,1662.9094,-343.27372)"
+       inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <path
          transform="matrix(0.3395654,0,0,0.3395654,137.40742,471.72721)"
          d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
@@ -1367,8 +2747,8 @@
          sodipodi:rx="45.714287"
          sodipodi:cy="567.7193"
          sodipodi:cx="148.57143"
-         id="path6226-3-3-5-8-7"
-         style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="path6226-3-3-8-1"
+         style="color:#000000;fill:#12d412;fill-opacity:1;fill-rule:nonzero;stroke:#21a23c;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
          sodipodi:type="arc" />
       <path
          transform="matrix(0.5250368,0,0,0.5250368,70.402046,374.1378)"
@@ -1377,8 +2757,8 @@
          sodipodi:rx="45.714287"
          sodipodi:cy="567.7193"
          sodipodi:cx="148.57143"
-         id="path6226-1-9-6"
-         style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="path6226-4-3"
+         style="color:#000000;fill:#12d412;fill-opacity:1;fill-rule:nonzero;stroke:#21a23c;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
          sodipodi:type="arc" />
       <path
          transform="matrix(0.5250368,0,0,0.5250368,90.562028,364.40658)"
@@ -1387,8 +2767,8 @@
          sodipodi:rx="45.714287"
          sodipodi:cy="567.7193"
          sodipodi:cx="148.57143"
-         id="path6226-2-0-6-3"
-         style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="path6226-2-39-2"
+         style="color:#000000;fill:#12d412;fill-opacity:1;fill-rule:nonzero;stroke:#21a23c;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
          sodipodi:type="arc" />
       <path
          transform="matrix(0.5250368,0,0,0.5250368,105.01453,383.36721)"
@@ -1397,14 +2777,16 @@
          sodipodi:rx="45.714287"
          sodipodi:cy="567.7193"
          sodipodi:cx="148.57143"
-         id="path6226-3-39-2-8"
-         style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="path6226-3-2-0"
+         style="color:#000000;fill:#12d412;fill-opacity:1;fill-rule:nonzero;stroke:#21a23c;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
          sodipodi:type="arc" />
     </g>
     <g
-       id="g6289-1-5-59"
-       transform="matrix(0.6766877,0,0,0.6766877,263.64028,72.880582)"
-       style="fill:#c9ffff;fill-opacity:1;stroke:none">
+       id="g6289-9-9"
+       transform="matrix(1.8278748,0,0,1.8278748,1541.4863,-317.16122)"
+       inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <path
          transform="matrix(0.3395654,0,0,0.3395654,137.40742,471.72721)"
          d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
@@ -1412,8 +2794,8 @@
          sodipodi:rx="45.714287"
          sodipodi:cy="567.7193"
          sodipodi:cx="148.57143"
-         id="path6226-3-3-5-8-3"
-         style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="path6226-3-3-7-2"
+         style="color:#000000;fill:#12d412;fill-opacity:1;fill-rule:nonzero;stroke:#21a23c;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
          sodipodi:type="arc" />
       <path
          transform="matrix(0.5250368,0,0,0.5250368,70.402046,374.1378)"
@@ -1422,8 +2804,8 @@
          sodipodi:rx="45.714287"
          sodipodi:cy="567.7193"
          sodipodi:cx="148.57143"
-         id="path6226-1-9-0"
-         style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="path6226-23-74"
+         style="color:#000000;fill:#12d412;fill-opacity:1;fill-rule:nonzero;stroke:#21a23c;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
          sodipodi:type="arc" />
       <path
          transform="matrix(0.5250368,0,0,0.5250368,90.562028,364.40658)"
@@ -1432,8 +2814,8 @@
          sodipodi:rx="45.714287"
          sodipodi:cy="567.7193"
          sodipodi:cx="148.57143"
-         id="path6226-2-0-6-2"
-         style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="path6226-2-3-5"
+         style="color:#000000;fill:#12d412;fill-opacity:1;fill-rule:nonzero;stroke:#21a23c;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
          sodipodi:type="arc" />
       <path
          transform="matrix(0.5250368,0,0,0.5250368,105.01453,383.36721)"
@@ -1442,14 +2824,16 @@
          sodipodi:rx="45.714287"
          sodipodi:cy="567.7193"
          sodipodi:cx="148.57143"
-         id="path6226-3-39-2-5"
-         style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="path6226-3-0-0"
+         style="color:#000000;fill:#12d412;fill-opacity:1;fill-rule:nonzero;stroke:#21a23c;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
          sodipodi:type="arc" />
     </g>
     <g
-       id="g6289-1-5-1"
-       transform="matrix(0.46882694,0,0,0.46882694,282.93339,225.68677)"
-       style="fill:#c9ffff;fill-opacity:1;stroke:none">
+       id="g6289-3"
+       transform="matrix(1.8278748,0,0,1.8278748,1420.0622,-328.34059)"
+       inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <path
          transform="matrix(0.3395654,0,0,0.3395654,137.40742,471.72721)"
          d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
@@ -1457,8 +2841,8 @@
          sodipodi:rx="45.714287"
          sodipodi:cy="567.7193"
          sodipodi:cx="148.57143"
-         id="path6226-3-3-5-8-5"
-         style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="path6226-3-3-2"
+         style="color:#000000;fill:#12d412;fill-opacity:1;fill-rule:nonzero;stroke:#21a23c;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
          sodipodi:type="arc" />
       <path
          transform="matrix(0.5250368,0,0,0.5250368,70.402046,374.1378)"
@@ -1467,8 +2851,8 @@
          sodipodi:rx="45.714287"
          sodipodi:cy="567.7193"
          sodipodi:cx="148.57143"
-         id="path6226-1-9-7"
-         style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="path6226-9"
+         style="color:#000000;fill:#12d412;fill-opacity:1;fill-rule:nonzero;stroke:#21a23c;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
          sodipodi:type="arc" />
       <path
          transform="matrix(0.5250368,0,0,0.5250368,90.562028,364.40658)"
@@ -1477,8 +2861,8 @@
          sodipodi:rx="45.714287"
          sodipodi:cy="567.7193"
          sodipodi:cx="148.57143"
-         id="path6226-2-0-6-7"
-         style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="path6226-2-7"
+         style="color:#000000;fill:#12d412;fill-opacity:1;fill-rule:nonzero;stroke:#21a23c;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
          sodipodi:type="arc" />
       <path
          transform="matrix(0.5250368,0,0,0.5250368,105.01453,383.36721)"
@@ -1487,189 +2871,486 @@
          sodipodi:rx="45.714287"
          sodipodi:cy="567.7193"
          sodipodi:cx="148.57143"
-         id="path6226-3-39-2-9"
-         style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="path6226-3-80"
+         style="color:#000000;fill:#12d412;fill-opacity:1;fill-rule:nonzero;stroke:#21a23c;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
          sodipodi:type="arc" />
     </g>
+    <rect
+       style="fill:none;stroke:none"
+       width="499.875"
+       height="15.714614"
+       x="1746.7053"
+       y="613.34296"
+       id="rect6177-4" />
+    <rect
+       y="547.98334"
+       x="2467.4285"
+       height="367.4534"
+       width="794.72839"
+       id="rect6426-4"
+       style="color:#000000;fill:url(#linearGradient7592-4);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:none;stroke:none"
+       width="499.875"
+       height="15.714614"
+       x="2591.1929"
+       y="617.38361"
+       id="rect6177-83" />
     <g
-       id="g6289-1-5-4"
-       transform="matrix(0.6766877,0,0,0.6766877,301.01593,76.921198)"
-       style="fill:#c9ffff;fill-opacity:1;stroke:none">
-      <path
-         transform="matrix(0.3395654,0,0,0.3395654,137.40742,471.72721)"
-         d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
-         sodipodi:ry="31.071428"
-         sodipodi:rx="45.714287"
-         sodipodi:cy="567.7193"
-         sodipodi:cx="148.57143"
-         id="path6226-3-3-5-8-1"
-         style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         sodipodi:type="arc" />
-      <path
-         transform="matrix(0.5250368,0,0,0.5250368,70.402046,374.1378)"
-         d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
-         sodipodi:ry="31.071428"
-         sodipodi:rx="45.714287"
-         sodipodi:cy="567.7193"
-         sodipodi:cx="148.57143"
-         id="path6226-1-9-78"
-         style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         sodipodi:type="arc" />
-      <path
-         transform="matrix(0.5250368,0,0,0.5250368,90.562028,364.40658)"
-         d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
-         sodipodi:ry="31.071428"
-         sodipodi:rx="45.714287"
-         sodipodi:cy="567.7193"
-         sodipodi:cx="148.57143"
-         id="path6226-2-0-6-5"
-         style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         sodipodi:type="arc" />
-      <path
-         transform="matrix(0.5250368,0,0,0.5250368,105.01453,383.36721)"
-         d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
-         sodipodi:ry="31.071428"
-         sodipodi:rx="45.714287"
-         sodipodi:cy="567.7193"
-         sodipodi:cx="148.57143"
-         id="path6226-3-39-2-7"
-         style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         sodipodi:type="arc" />
+       id="g6783-3"
+       transform="translate(1802.3727,49.641591)"
+       inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+         style="fill:#c9ffff;fill-opacity:1;stroke:none"
+         transform="matrix(0.78990813,0,0,0.78990813,635.2736,73.571868)"
+         id="g6289-1-9">
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-3-3-5-6"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.3395654,0,0,0.3395654,137.40742,471.72721)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-1-3"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,70.402046,374.1378)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-2-0-7"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,90.562028,364.40658)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-3-39-5"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,105.01453,383.36721)" />
+      </g>
+      <g
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+         style="fill:#c9ffff;fill-opacity:1;stroke:none"
+         transform="matrix(1.2369004,0,0,1.2369004,600.89913,-193.55347)"
+         id="g6289-1-5-2">
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-3-3-5-8-0"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.3395654,0,0,0.3395654,137.40742,471.72721)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-1-9-71"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,70.402046,374.1378)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-2-0-6-70"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,90.562028,364.40658)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-3-39-2-6"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,105.01453,383.36721)" />
+      </g>
+      <g
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+         style="fill:#c9ffff;fill-opacity:1;stroke:none"
+         transform="matrix(1.0357539,0,0,0.96846075,697.9338,-21.943198)"
+         id="g6289-1-5-5-7">
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-3-3-5-8-7-17"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.3395654,0,0,0.3395654,137.40742,471.72721)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-1-9-6-54"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,70.402046,374.1378)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-2-0-6-3-8"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,90.562028,364.40658)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-3-39-2-8-1"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,105.01453,383.36721)" />
+      </g>
     </g>
     <g
-       id="g6289-1-5-8"
-       transform="matrix(0.6766877,0,0,0.6766877,452.5064,92.654833)"
-       style="fill:#c9ffff;fill-opacity:1;stroke:none">
-      <path
-         transform="matrix(0.3395654,0,0,0.3395654,137.40742,471.72721)"
-         d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
-         sodipodi:ry="31.071428"
-         sodipodi:rx="45.714287"
-         sodipodi:cy="567.7193"
-         sodipodi:cx="148.57143"
-         id="path6226-3-3-5-8-8"
-         style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         sodipodi:type="arc" />
-      <path
-         transform="matrix(0.5250368,0,0,0.5250368,70.402046,374.1378)"
-         d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
-         sodipodi:ry="31.071428"
-         sodipodi:rx="45.714287"
-         sodipodi:cy="567.7193"
-         sodipodi:cx="148.57143"
-         id="path6226-1-9-4"
-         style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         sodipodi:type="arc" />
-      <path
-         transform="matrix(0.5250368,0,0,0.5250368,90.562028,364.40658)"
-         d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
-         sodipodi:ry="31.071428"
-         sodipodi:rx="45.714287"
-         sodipodi:cy="567.7193"
-         sodipodi:cx="148.57143"
-         id="path6226-2-0-6-23"
-         style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         sodipodi:type="arc" />
-      <path
-         transform="matrix(0.5250368,0,0,0.5250368,105.01453,383.36721)"
-         d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
-         sodipodi:ry="31.071428"
-         sodipodi:rx="45.714287"
-         sodipodi:cy="567.7193"
-         sodipodi:cx="148.57143"
-         id="path6226-3-39-2-84"
-         style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         sodipodi:type="arc" />
+       id="g6766-75"
+       transform="translate(1738.7331,0.14412082)"
+       inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+         style="fill:#c9ffff;fill-opacity:1;stroke:none"
+         transform="matrix(1.2369004,0,0,1.2369004,959.10699,-224.01959)"
+         id="g6289-1-5-59-2">
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-3-3-5-8-3-1"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.3395654,0,0,0.3395654,137.40742,471.72721)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-1-9-0-7"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,70.402046,374.1378)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-2-0-6-2-5"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,90.562028,364.40658)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-3-39-2-5-3"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,105.01453,383.36721)" />
+      </g>
+      <g
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+         style="fill:#c9ffff;fill-opacity:1;stroke:none"
+         transform="matrix(0.85695697,0,0,0.85695697,994.37238,55.290979)"
+         id="g6289-1-5-1-1">
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-3-3-5-8-5-0"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.3395654,0,0,0.3395654,137.40742,471.72721)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-1-9-7-0"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,70.402046,374.1378)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-2-0-6-7-05"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,90.562028,364.40658)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-3-39-2-9-0"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,105.01453,383.36721)" />
+      </g>
+      <g
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+         style="fill:#c9ffff;fill-opacity:1;stroke:none"
+         transform="matrix(1.2369004,0,0,1.2369004,1027.425,-216.63386)"
+         id="g6289-1-5-4-07">
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-3-3-5-8-1-8"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.3395654,0,0,0.3395654,137.40742,471.72721)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-1-9-78-64"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,70.402046,374.1378)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-2-0-6-5-9"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,90.562028,364.40658)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-3-39-2-7-1"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,105.01453,383.36721)" />
+      </g>
     </g>
     <g
-       id="g6289-1-5-8-1"
-       transform="matrix(0.36543646,0,0,0.36543646,490.87072,317.16048)"
-       style="fill:#c9ffff;fill-opacity:1;stroke:none">
-      <path
-         transform="matrix(0.3395654,0,0,0.3395654,137.40742,471.72721)"
-         d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
-         sodipodi:ry="31.071428"
-         sodipodi:rx="45.714287"
-         sodipodi:cy="567.7193"
-         sodipodi:cx="148.57143"
-         id="path6226-3-3-5-8-8-3"
-         style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         sodipodi:type="arc" />
-      <path
-         transform="matrix(0.5250368,0,0,0.5250368,70.402046,374.1378)"
-         d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
-         sodipodi:ry="31.071428"
-         sodipodi:rx="45.714287"
-         sodipodi:cy="567.7193"
-         sodipodi:cx="148.57143"
-         id="path6226-1-9-4-0"
-         style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         sodipodi:type="arc" />
-      <path
-         transform="matrix(0.5250368,0,0,0.5250368,90.562028,364.40658)"
-         d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
-         sodipodi:ry="31.071428"
-         sodipodi:rx="45.714287"
-         sodipodi:cy="567.7193"
-         sodipodi:cx="148.57143"
-         id="path6226-2-0-6-23-4"
-         style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         sodipodi:type="arc" />
-      <path
-         transform="matrix(0.5250368,0,0,0.5250368,105.01453,383.36721)"
-         d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
-         sodipodi:ry="31.071428"
-         sodipodi:rx="45.714287"
-         sodipodi:cy="567.7193"
-         sodipodi:cx="148.57143"
-         id="path6226-3-39-2-84-1"
-         style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         sodipodi:type="arc" />
-    </g>
-    <g
-       id="g6289-1-5-8-7"
-       transform="matrix(0.44130589,0,0,0.44130589,457.58382,252.96495)"
-       style="fill:#c9ffff;fill-opacity:1;stroke:none">
-      <path
-         transform="matrix(0.3395654,0,0,0.3395654,137.40742,471.72721)"
-         d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
-         sodipodi:ry="31.071428"
-         sodipodi:rx="45.714287"
-         sodipodi:cy="567.7193"
-         sodipodi:cx="148.57143"
-         id="path6226-3-3-5-8-8-7"
-         style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         sodipodi:type="arc" />
-      <path
-         transform="matrix(0.5250368,0,0,0.5250368,70.402046,374.1378)"
-         d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
-         sodipodi:ry="31.071428"
-         sodipodi:rx="45.714287"
-         sodipodi:cy="567.7193"
-         sodipodi:cx="148.57143"
-         id="path6226-1-9-4-2"
-         style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         sodipodi:type="arc" />
-      <path
-         transform="matrix(0.5250368,0,0,0.5250368,90.562028,364.40658)"
-         d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
-         sodipodi:ry="31.071428"
-         sodipodi:rx="45.714287"
-         sodipodi:cy="567.7193"
-         sodipodi:cx="148.57143"
-         id="path6226-2-0-6-23-1"
-         style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         sodipodi:type="arc" />
-      <path
-         transform="matrix(0.5250368,0,0,0.5250368,105.01453,383.36721)"
-         d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
-         sodipodi:ry="31.071428"
-         sodipodi:rx="45.714287"
-         sodipodi:cy="567.7193"
-         sodipodi:cx="148.57143"
-         id="path6226-3-39-2-84-3"
-         style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         sodipodi:type="arc" />
+       id="g6749-4"
+       transform="translate(1691.256,49.641591)"
+       inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+         style="fill:#c9ffff;fill-opacity:1;stroke:none"
+         transform="matrix(1.2369004,0,0,1.2369004,1304.3306,-187.87475)"
+         id="g6289-1-5-8-8">
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-3-3-5-8-8-0"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.3395654,0,0,0.3395654,137.40742,471.72721)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-1-9-4-8"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,70.402046,374.1378)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-2-0-6-23-9"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,90.562028,364.40658)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-3-39-2-84-9"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,105.01453,383.36721)" />
+      </g>
+      <g
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+         style="fill:#c9ffff;fill-opacity:1;stroke:none"
+         transform="matrix(0.66797212,0,0,0.66797212,1374.4558,222.49348)"
+         id="g6289-1-5-8-1-7">
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-3-3-5-8-8-3-99"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.3395654,0,0,0.3395654,137.40742,471.72721)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-1-9-4-0-9"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,70.402046,374.1378)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-2-0-6-23-4-6"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,90.562028,364.40658)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-3-39-2-84-1-06"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,105.01453,383.36721)" />
+      </g>
+      <g
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="D:\makiart\_Projekte\minigames\flappyBird\img\background.png"
+         style="fill:#c9ffff;fill-opacity:1;stroke:none"
+         transform="matrix(0.80665194,0,0,0.80665194,1313.6114,105.15209)"
+         id="g6289-1-5-8-7-3">
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-3-3-5-8-8-7-80"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.3395654,0,0,0.3395654,137.40742,471.72721)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-1-9-4-2-3"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,70.402046,374.1378)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-2-0-6-23-1-69"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,90.562028,364.40658)" />
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#c9ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6226-3-39-2-84-3-4"
+           sodipodi:cx="148.57143"
+           sodipodi:cy="567.7193"
+           sodipodi:rx="45.714287"
+           sodipodi:ry="31.071428"
+           d="m 194.28571,567.7193 c 0,17.16028 -20.46698,31.07143 -45.71428,31.07143 -25.24731,0 -45.71429,-13.91115 -45.71429,-31.07143 0,-17.16028 20.46698,-31.07143 45.71429,-31.07143 25.2473,0 45.71428,13.91115 45.71428,31.07143 z"
+           transform="matrix(0.5250368,0,0,0.5250368,105.01453,383.36721)" />
+      </g>
     </g>
   </g>
 </svg>
