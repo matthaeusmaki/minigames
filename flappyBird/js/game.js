@@ -1,8 +1,7 @@
 /**
  * Game Logic
  */
-// TODO: Startmenu (tap to start)
-// TODO: reset (tap to restart)
+
 // TODO: Zusätzliche Steuerung (Mausklick)
 // TODO: Animation (flap flap)
 // TODO: GameLoop optimieren bzw. Performance verbessern
@@ -14,6 +13,10 @@ var isJumping = false;
 	
 var deltaTime = 0;
 var pipeTime = 0;
+
+var tapToStart;
+
+var gameLoop;
 	
 var score = {
 	count : 0,
@@ -78,12 +81,19 @@ var pipes = [];
 	
 function init() {
 	FPSinfo.createFPSbox();
-	isRunning = true;
-	startTime = new Date().getTime();
 	createBackground();
 	createBird();
+	createStartOverlay();
+	pause();
+};
+
+function start() {
+	reset();
+	removeElement(tapToStart) ;
 	createPipes();
 	createScore();
+	resume();
+	startTime = new Date().getTime();
 	gameLoop = setInterval(update, 16);
 };
 
@@ -95,10 +105,38 @@ function resume() {
 };
 function stop() {
 	isRunning = false;
-	// TODO: reset
+	createStartOverlay();
+	tapToStart.innerText = score.count + " points, " + tapToStart.innerText;
+};
+
+function reset() {
+	isKeyDown = false;
+	isRunning = false;
+	isJumping = false;
+	deltaTime = 0;
+	pipeTime = 0;
+	bird.position.x = 100;
+	bird.position.y = 100;
+	score.count = 0;
+	if (pipes != undefined && pipes.length > 0) {
+		for (var i = pipes.length-1; i >= 0; --i) {
+			removeElement(pipes[i].model);
+		}
+		pipes.length = 0;
+	}
+	if (gameLoop != undefined) {
+		clearInterval(gameLoop);
+	}
 };
 	
 // creation
+function createStartOverlay() {
+	var width = 250;
+	var height = 75;
+	tapToStart = createElement("tap-to-start overlay", width, height, {x: config.world.width / 2 - width /2, y: config.world.height / 2 - height/2});
+	tapToStart.innerText = "Tap to start";
+};
+
 function createBackground() {
 	background.layer.push(createElement("bg-layer-0", config.world.width, 50, {x:0, y:config.world.height})); // ground
 	background.layer.push(createElement("bg-layer-1", config.world.width, 40, {x:0, y:config.world.height - 40})); // hedges
@@ -179,7 +217,7 @@ function createScoreTrigger(height, posY) {
 };
 	
 function createScore() {
-	score.model = createElement("score", score.width, score.height, {x: 10, y:10});
+	score.model = createElement("score overlay", score.width, score.height, {x: 10, y:10});
 	score.model.innerText = score.count;
 };
 	
@@ -219,7 +257,7 @@ function updatePipes() {
 		var p = pipes[i];
 		var pos = p.position.x - config.pipe.speed;
 		if (!p.isActive || pos + config.pipe.width <= 0) {
-			document.body.removeChild(p.model);
+			removeElement(p.model) 
 			pipes.splice(i, 1);
 		} else {
 			p.setX(pos);
@@ -288,7 +326,12 @@ function keydown(e) {
 	if (!isKeyDown) {
 		isKeyDown = true;
 		if (e.which == config.game.jump) {
-			jump();
+			if (isRunning) {
+				jump();
+			} else {
+				start();
+				jump();
+			}
 		} else if (e.keyCode == config.game.pause) {
 			if (isRunning) {
 				pause();
@@ -347,6 +390,11 @@ function createElement(id, width, height, position, color) {
 	document.body.appendChild(model);
 	return model;
 }
+
+function removeElement(element) {
+	document.body.removeChild(element);
+}
+
 
 var FPSinfo = {
 	fps : 0,

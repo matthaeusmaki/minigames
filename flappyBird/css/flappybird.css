@@ -3,6 +3,25 @@
  */
 body {
 	background-color: #635c5c;
+	font-family: Verdana, sans-serif;
+}
+ 
+ .overlay {
+	background-color: orange;
+	border-top: 2px solid #ffd800;
+	border-left: 2px solid #ffd800;
+	border-bottom: 2px solid #d1b207;
+	border-right: 2px solid #d1b207;
+	color: #4B6D76;
+	padding: 5px;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+ }
+ 
+.tap-to-start {
+	padding-top: 50px;
+	z-index: 101;
 }
  
 .bird {
@@ -58,15 +77,4 @@ body {
 
 .score {
 	z-index: 100;
-	background-color: orange;
-	border-top: 2px solid #ffd800;
-	border-left: 2px solid #ffd800;
-	border-bottom: 2px solid #d1b207;
-	border-right: 2px solid #d1b207;
-	color: #4B6D76;
-	padding: 5px;
-	font-family: Verdana, sans-serif;
-	font-size: 20px;
-	font-weight: bold;
-	text-align: center;
 }
