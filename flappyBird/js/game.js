@@ -2,7 +2,6 @@
  * Game Logic
  */
 
-// TODO: Zusätzliche Steuerung (Mausklick)
 // TODO: Animation (flap flap)
 // TODO: GameLoop optimieren bzw. Performance verbessern
 // TODO: Sounds
@@ -41,7 +40,7 @@ var config = {
 		interval: 1500 // in milliseconds
 	},
 	game : {
-		jump : 32, //space
+		jump : [32, 1], //space, mouseleft
 		pause : 80, // p
 	},
 	world : {
@@ -267,10 +266,10 @@ function updatePipes() {
 
 // collision detection
 /* x1	x2
-   +----+  y1
-   |	|
-   |	|
-   +----+  y2
+   +-----+  y1
+   |		|
+   |    	|
+   +-----+  y2
 */	
 function checkCollision() {
 	var birdX1 = bird.position.x;
@@ -325,20 +324,14 @@ function keydown(e) {
 	// console.log(e);
 	if (!isKeyDown) {
 		isKeyDown = true;
-		if (e.which == config.game.jump) {
+		if (e.which == config.game.jump[0] || e.which == config.game.jump[1]) {
 			if (isRunning) {
 				jump();
 			} else {
 				start();
 				jump();
 			}
-		} else if (e.keyCode == config.game.pause) {
-			if (isRunning) {
-				pause();
-			} else {
-				resume();
-			}
-		} else if (e.keyCode == 13) {
+		// } else if (e.keyCode == 13) {
 			// debug input
 		}
 	}
