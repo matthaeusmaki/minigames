@@ -2,7 +2,6 @@
  * Game Logic
  */
 
-// TODO: Animation (flap flap)
 // TODO: GameLoop optimieren bzw. Performance verbessern
 // TODO: Sounds
 
@@ -54,6 +53,7 @@ var bird = {
 	styleClass : "bird",
 	width : 25,
 	height : 25,
+	rotation: 0,
 	position : {
 		x : 100,
 		y : 100
@@ -74,6 +74,10 @@ var bird = {
 	setStyleClass : function(styleClass) {
 		this.styleClass = styleClass;
 		this.model.className = styleClass;
+	},
+	rotate: function(deg) {
+		this.rotation = deg;
+		this.model.style.transform = "rotate(" + deg + "deg)";
 	}
 };
 
@@ -253,14 +257,17 @@ function updateBird() {
 	if (isJumping && pos > 0) {
 		isJumping = false;
 		bird.speed.y = config.bird.jumpSpeed;
+		bird.rotate(-30);
+	} else {
+		if (bird.rotation < 30) {
+			bird.rotate(bird.rotation+1.5);
+		}
 	}
 	
 	if (bird.speed.y < 0) {
 		bird.setStyleClass("bird-1");
-		// bird.model.style.display = "none";
 	} else {
 		bird.setStyleClass("bird");
-		// bird.model.style.display = "block";
 	}
 	
 	bird.setY(pos);
