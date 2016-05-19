@@ -51,6 +51,7 @@ var config = {
 	
 var bird = {
 	id : "bird",
+	styleClass : "bird",
 	width : 25,
 	height : 25,
 	position : {
@@ -69,6 +70,10 @@ var bird = {
 	setY : function(posY) {
 		this.position.y = posY;
 		this.model.style.top = asPx(posY);
+	},
+	setStyleClass : function(styleClass) {
+		this.styleClass = styleClass;
+		this.model.className = styleClass;
 	}
 };
 
@@ -132,18 +137,18 @@ function reset() {
 function createStartOverlay() {
 	var width = 250;
 	var height = 75;
-	tapToStart = createElement("tap-to-start overlay", width, height, {x: config.world.width / 2 - width /2, y: config.world.height / 2 - height/2});
+	tapToStart = createElement("", "tap-to-start overlay", width, height, {x: config.world.width / 2 - width /2, y: config.world.height / 2 - height/2});
 	tapToStart.innerText = "Tap to start";
 };
 
 function createBackground() {
-	background.layer.push(createElement("bg-layer-0", config.world.width, 50, {x:0, y:config.world.height})); // ground
-	background.layer.push(createElement("bg-layer-1", config.world.width, 40, {x:0, y:config.world.height - 40})); // hedges
-	background.layer.push(createElement("bg-layer-2", config.world.width, config.world.height, {x:0, y:0})); // sky and clouds
+	background.layer.push(createElement("bg0", "bg-layer-0", config.world.width, 50, {x:0, y:config.world.height})); // ground
+	background.layer.push(createElement("bg1", "bg-layer-1", config.world.width, 40, {x:0, y:config.world.height - 40})); // hedges
+	background.layer.push(createElement("bg2", "bg-layer-2", config.world.width, config.world.height, {x:0, y:0})); // sky and clouds
 };
 	
 function createBird() {
-	bird.model = createElement(bird.id, bird.width, bird.height, bird.position);
+	bird.model = createElement(bird.id, bird.styleClass, bird.width, bird.height, bird.position);
 };
 	
 function createPipes() {
@@ -158,6 +163,7 @@ function createPipe(height, posY, isTop) {
 	var p = {
 		width: config.pipe.width,
 		id : "pipe",
+		styleClass : "pipe",
 		height: height,
 		isActive : true,
 		bottomOffset : 10,
@@ -184,7 +190,7 @@ function createPipe(height, posY, isTop) {
 		
 	};
 	// p.modelBody = createElement(p.id+"Body", p.width-p.bottomOffset, p.height, { x: p.position.x + p.bottomOffset/2, y:p.position.y });
-	p.model = createElement(p.id, p.width, p.height, { x: p.position.x, y:p.position.y });
+	p.model = createElement(p.id, p.styleClass, p.width, p.height, { x: p.position.x, y:p.position.y });
 	pipes[pipes.length] = p;
 };
 
@@ -192,6 +198,7 @@ function createScoreTrigger(height, posY) {
 	var trigger = {
 		width: 2,
 		id : "trigger",
+		styleClass : "trigger",
 		height: height,
 		isActive : true,
 		position : {
@@ -211,12 +218,12 @@ function createScoreTrigger(height, posY) {
 			this.model.style.display = "none";
 		}
 	};
-	trigger.model = createElement("trigger", 2, height, { x: config.world.width, y:posY }, "");
+	trigger.model = createElement(trigger.id, trigger.styleClass, 2, height, { x: config.world.width, y:posY }, "");
 	pipes[pipes.length] = trigger;
 };
 	
 function createScore() {
-	score.model = createElement("score overlay", score.width, score.height, {x: 10, y:10});
+	score.model = createElement("score", "score overlay", score.width, score.height, {x: 10, y:10});
 	score.model.innerText = score.count;
 };
 	
@@ -247,6 +254,15 @@ function updateBird() {
 		isJumping = false;
 		bird.speed.y = config.bird.jumpSpeed;
 	}
+	
+	if (bird.speed.y < 0) {
+		bird.setStyleClass("bird-1");
+		// bird.model.style.display = "none";
+	} else {
+		bird.setStyleClass("bird");
+		// bird.model.style.display = "block";
+	}
+	
 	bird.setY(pos);
 	bird.speed.y += config.bird.fallingConst * deltaTime;
 };
@@ -371,9 +387,10 @@ function asNum(value) {
  * position : object with x and y value
  * color : color or background-image of div
  */
-function createElement(id, width, height, position, color) {
+function createElement(id, styleClass, width, height, position, color) {
 	var model = document.createElement("div");
-	model.className += id;
+	model.id = id;
+	model.className += styleClass;
 	model.style.width = asPx(width);
 	model.style.height = asPx(height);
 	model.style.background = color != "" ? color : "transparent";

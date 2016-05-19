@@ -24,11 +24,18 @@ body {
 	z-index: 101;
 }
  
-.bird {
-	background-image: url("../img/bird.png");
+.bird,
+.bird-1 {
 	background-size: 25px;
 	background-repeat: no-repeat;
 	z-index:11;
+}
+
+.bird {
+	background-image: url("../img/bird_0.png");
+}
+.bird-1 {
+	background-image: url("../img/bird_1.png");
 }
 
 .pipeBody, .pipe {
