@@ -3,7 +3,7 @@
  */
 
 // TODO: GameLoop optimieren bzw. Performance verbessern
-// TODO: Sounds
+// TODO: Pipe länge eingrenzen
 
 var isKeyDown = false;
 var isRunning = false;
@@ -39,8 +39,7 @@ var config = {
 		interval: 1500 // in milliseconds
 	},
 	game : {
-		jump : [32, 1], //space, mouseleft
-		pause : 80, // p
+		jump : [32, 1] //space, mouseleft
 	},
 	world : {
 		width: 800,
