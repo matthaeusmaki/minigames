@@ -2,8 +2,6 @@
  * Game Logic
  */
 
-// TODO: Boden und Decke sollen zu Game Over führen
-
 var isKeyDown = false;
 var isRunning = false;
 var isJumping = false;
@@ -295,44 +293,50 @@ function updatePipes() {
    +-----+  y2
 */	
 function checkCollision() {
-	var birdX1 = bird.position.x;
-	var birdX2 = birdX1 + bird.width;
-	var birdY1 = bird.position.y;
-	var birdY2 = birdY1 + bird.height;
-	for (var i = 0; i < pipes.length; i++) {
-		var pipe = pipes[i];
+	// check collision top/bottom
+	if (bird.position.y <= 0 || bird.position.y+bird.height >= config.world.height) {
+		stop();
+	} else {
+		var birdX1 = bird.position.x;
+		var birdX2 = birdX1 + bird.width;
+		var birdY1 = bird.position.y;
+		var birdY2 = birdY1 + bird.height;
 		
-	
-		var pipeX1 = pipe.position.x;
-		var pipeX2 = pipeX1 + pipe.width;
-		var pipeY1 = pipe.position.y;
-		var pipeY2 = pipeY1 + pipe.height;
+		for (var i = 0; i < pipes.length; i++) {
+			var pipe = pipes[i];		
 		
-		var cX = [	
-					pipeX1 <= birdX2 && pipeX2 > birdX2, 
-					pipeX1 <= birdX1 && pipeX2 >= birdX2,
-					pipeX2 >= birdX1 && pipeX1 < birdX1
-				];
-						 
-		var cY = [	
-					pipeY2 >= birdY1 && pipeY2 < birdY2,
-					pipeY1 <= birdY2 && pipeY2 > birdY2,
-					pipeY1 <= birdY1 && pipeY2 >= birdY2
-				 ];
-		
-		if (cX[0] && cY[0] || cX[0] && cY[1] || cX[0] && cY[2] ||
-			cX[1] && cY[0] || cX[1] && cY[1] || cX[1] && cY[2] ||
-			cX[2] && cY[0] || cX[2] && cY[1] || cX[2] && cY[2] ) {
+			var pipeX1 = pipe.position.x;
+			var pipeX2 = pipeX1 + pipe.width;
+			var pipeY1 = pipe.position.y;
+			var pipeY2 = pipeY1 + pipe.height;
 			
-			if (pipe.id == "trigger") {
-				// add point and remove trigger
-				pipe.deactivate();
-				score.addPoint();
-			} else {
-				this.stop();
+			var cX = [	
+						pipeX1 <= birdX2 && pipeX2 > birdX2, 
+						pipeX1 <= birdX1 && pipeX2 >= birdX2,
+						pipeX2 >= birdX1 && pipeX1 < birdX1
+					];
+							 
+			var cY = [	
+						pipeY2 >= birdY1 && pipeY2 < birdY2,
+						pipeY1 <= birdY2 && pipeY2 > birdY2,
+						pipeY1 <= birdY1 && pipeY2 >= birdY2
+					 ];
+			
+			if (cX[0] && cY[0] || cX[0] && cY[1] || cX[0] && cY[2] ||
+				cX[1] && cY[0] || cX[1] && cY[1] || cX[1] && cY[2] ||
+				cX[2] && cY[0] || cX[2] && cY[1] || cX[2] && cY[2] ) {
+				
+				if (pipe.id == "trigger") {
+					// add point and remove trigger
+					pipe.deactivate();
+					score.addPoint();
+				} else {
+					stop();
+				}
 			}
 		}
 	}
+	
 };
 
 function updateBackground() {
