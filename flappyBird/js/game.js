@@ -146,7 +146,7 @@ function createStartOverlay() {
 
 function createBackground() {
 	background.layer.push(createElement("bg0", "bg-layer-0", config.world.width, 50, {x:0, y:config.world.height})); // ground
-	background.layer.push(createElement("bg1", "bg-layer-1", config.world.width, 40, {x:0, y:config.world.height - 40})); // hedges
+	background.layer.push(createElement("bg1", "bg-layer-1", config.world.width, 80, {x:0, y:config.world.height - 50})); // hedges
 	background.layer.push(createElement("bg2", "bg-layer-2", config.world.width, config.world.height, {x:0, y:0})); // sky and clouds
 };
 	
@@ -336,9 +336,14 @@ function checkCollision() {
 };
 
 function updateBackground() {
+	var paralaxDifference = 1;
 	for (var i = 0; i < background.layer.length; i++) {
 		var bg = background.layer[i];
-		bg.style.backgroundPosition = asPx(asNum(bg.style.backgroundPosition) - config.pipe.speed / (i+1)) + " 0";
+		if (Math.abs(asNum(bg.style.backgroundPosition)) >= config.world.width) {
+			bg.style.backgroundPosition = asPx(0) + " 0";
+		} else {
+			bg.style.backgroundPosition = asPx(asNum(bg.style.backgroundPosition) - config.pipe.speed / (i + paralaxDifference)) + " 0";
+		}
 	}
 };
 

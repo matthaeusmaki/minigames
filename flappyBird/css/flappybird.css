@@ -65,7 +65,7 @@ body {
 
 .bg-layer-1 {
 	background-image: url("../img/background-layer-1.png");
-	background-size: 300px 80px;
+	background-size: 800px 120px;
     z-index: 9;
 }
 
