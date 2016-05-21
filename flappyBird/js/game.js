@@ -2,8 +2,7 @@
  * Game Logic
  */
 
-// TODO: GameLoop optimieren bzw. Performance verbessern
-// TODO: Pipe länge eingrenzen
+// TODO: Boden und Decke sollen zu Game Over führen
 
 var isKeyDown = false;
 var isRunning = false;
@@ -36,7 +35,8 @@ var config = {
 		width : 40,
 		buffer : 90,
 		speed : 3,
-		interval: 1500 // in milliseconds
+		interval: 1500, // in milliseconds
+		minDistanceToBorder: 35 // minimum distance to border 
 	},
 	game : {
 		jump : [32, 1] //space, mouseleft
@@ -155,10 +155,11 @@ function createBird() {
 };
 	
 function createPipes() {
-	var topHeight = Math.min(config.world.height - config.pipe.buffer, parseInt(Math.random() * config.world.height));
+	var randomHeight = parseInt(Math.random() * (config.world.height - config.pipe.buffer));
+	var topHeight = Math.min(Math.max(config.pipe.minDistanceToBorder, randomHeight), config.world.height - config.pipe.minDistanceToBorder - config.pipe.buffer);
 	var bottomHeight = config.world.height - topHeight - config.pipe.buffer; 
 	createPipe(topHeight, 0, true);  // top
-	createPipe(bottomHeight, config.world.height-bottomHeight, false); // bottom
+	createPipe(bottomHeight, config.world.height - bottomHeight, false); // bottom
 	createScoreTrigger(config.world.height-topHeight-bottomHeight, topHeight); // trigger of score points
 };
 	
