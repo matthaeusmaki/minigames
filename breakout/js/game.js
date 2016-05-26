@@ -3,6 +3,11 @@
  */
 
 var GAME = {};
+var now,
+	dt = 0,
+	last,
+	step = 1/60;
+
 
 GAME.stage = {
 	width: 400,
@@ -10,17 +15,27 @@ GAME.stage = {
 };
 
 GAME.paddle = {
+	id: "paddleId",
 	width: 50,
 	height: 5,
 	position: {
-		x: GAME.stage.width/2 - this.width/2,
-		y: GAME.stage.height - this.height + 10
+		x: 0,
+		y: 0
+	},
+	setX: function(value) {
+		this.position.x = value;
+		this.model.style.left = asPx(value);
+	},
+	setY: function(value) {
+		this.position.y = value;
+		this.model.style.top = asPx(value);
 	}
 };
 
 GAME.init = function() {
-	console.log("init breakout");
-	console.log("bla: " + asPx(12));
+	last = timestamp();
+	GAME.createPaddle();
+	requestAnimationFrame(GAME.update);
 };
 
 GAME.createStage = function() {
@@ -28,5 +43,31 @@ GAME.createStage = function() {
 };
 
 GAME.createPaddle = function() {
-	// TODO: create the paddle
+	GAME.paddle.model = createElement(GAME.paddle.id, "", GAME.paddle.width, GAME.paddle.height, GAME.paddle.position, "green");
+	GAME.paddle.setX(GAME.stage.width/2 - GAME.paddle.width/2);
+	GAME.paddle.setY(GAME.stage.height - GAME.paddle.height + 10);
+};
+
+// Gameloop
+GAME.update = function() {
+	now = timestamp();
+	dt = dt + Math.min(1, (now - last) / 1000);
+	while (dt > step) {
+		dt = dt - step;
+		// TODO: simulate game with step
+		GAME.updatePaddle(step);
+	}
+	// TODO: render game with dt
+	last = now;
+	requestAnimationFrame(GAME.update);
+};
+
+var paddleTestStep = 200;
+
+// Simulation
+GAME.updatePaddle = function(step) {
+	GAME.paddle.setX(GAME.paddle.position.x + paddleTestStep*step);
+	if (GAME.paddle.position.x >= GAME.stage.width || GAME.paddle.position.x <= 0) {
+		paddleTestStep *= -1;
+	}
 };
