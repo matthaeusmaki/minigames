@@ -1,0 +1,94 @@
+/**
+ * This script contains functions to work with vectors.
+ * It based on the book "2D Game Collision Detection" by Thomas Schwarzl
+ */
+ 
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//	Vector2D and helper functions
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ 
+ /**
+  * 2D-Vector prototype. Initialize with new
+  * @param x : x coordinate
+  * @param y : y coordinate
+  */
+ function Vector2D(x, y) {
+	this.x = x;
+	this.y = y;
+}
+ 
+ /**
+  * Returns a new Vector2D which contains the sum of 2 Vector2D
+  * @param v1 : first 2D vector
+  * @param v2 : second 2D vector
+  * @return Vector2D
+  */
+function addVector(v1, v2) {
+	return new Vector2D(v1.x + v2.x, v1.y + v2.y);
+}
+
+/**
+ *	Returns a new Vector2D which contains the difference of 2 Vector2D
+ * @param v1 : first 2d vector
+ * @param v2 : second 2d vector
+ * @return Vector2D
+ */
+function subtractVector(v1, v2) {
+	return new Vector2D(v1.x - v2.x, v1.y - v2.y);
+}
+
+/**
+ * Returns a new Vector2D which negated
+ * @param v : Vector2D
+ * @return Vector2D
+ */
+function negateVector(v) {
+	return new Vector2D(-v.x, -v.y);
+}
+
+/**
+ *	Returns a new Vector2D which the vecor v multiplied by a scalar
+ * @param v : Vector2D to multiply
+ * @param scalar : float to multiply with
+ * @return Vector2D
+ */
+function multiplyVector(v, scalar) {
+	return new Vector2D(v.x * scalar, v.y * scalar);
+}
+
+/**
+ *	Returns a new Vector2D which is the divided vector v by an divisor
+ * @param v : Vector2D to divide
+ * @param divisor : float to divide with
+ * @return Vector2D
+ */
+function divideVector(v, divisor) {
+	if (divisor == 0) {
+		return new Vector2D(0,0); // the vector points nowhere
+	}
+	return new Vector2D(v.x / divisor, v.y / divisor);
+}
+
+/**
+ *	Returns the length of the vector v
+ * @param v : Vector2D
+ * @return float
+ */
+function vectorLength(v) {
+	return Math.sqrt(v.x * v.x + v.y * v.y);
+}
+
+/**
+ *	Returns the unified vector of v
+ * @param v : Vector2D to unify
+ * @return Vector2D
+ */
+function unitVector(v) {
+	var length = vectorLength(v);
+	if (length > 0) {
+		return divideVector(v, length);
+	}
+	return v;
+}
+
+
