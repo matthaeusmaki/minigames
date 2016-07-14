@@ -34,9 +34,8 @@ function equalFloats(f1, f2) {
  * @param v2 : Vector2D
  * @return boolean
  */
-function assertEqualVectors(v1, v2) {
-	assert(equalFloats(v1.x, v2.x));
-	assert(equalFloats(v1.y, v2.y));
+function equalVectors(v1, v2) {
+	return equalFloats(v1.x, v2.x) && equalFloats(v1.y, v2.y);
 }
  
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -62,7 +61,7 @@ function runTests() {
 			console.warn(allTests[t] + " has failed: " + err.message);
 		}
 	}
-	return allTests.length-errors + "/" + allTests.length + " tests successfull, " + failed + " failures, " + errors + " errors";
+	console.log(allTests.length-errors + "/" + allTests.length + " tests successfull, " + failed + " failures, " + errors + " errors");
 }
  
 var vectorTests =  {
@@ -70,7 +69,7 @@ var vectorTests =  {
 		var a = new Vector2D(7, 4);
 		var b = new Vector2D(3, -3);
 		var c = addVector(a, negateVector(b));
-		assertEqualVectors(c, subtractVector(a, b), "Vectors should be equal"); 
+		assert(equalVectors(c, subtractVector(a, b)), "Vectors should be equal"); 
 	},
 	
 	testAddVector : function() {
@@ -129,5 +128,24 @@ var vectorTests =  {
 		assert(1 < vectorLength(a), "Length of vector is wrong");
 		var u = unitVector(a);
 		assert(equalFloats(1, vectorLength(u)), "Length of unit vector is wrong");
+	},
+	
+	testDegreesToRadian : function() {
+		assert(equalFloats(degreesToRadian(0), 0), "Wrong radian (0 degree is 0)");
+		assert(equalFloats(degreesToRadian(90), Math.PI / 2), "Wrong radian (90 degree is pi/2)");
+		assert(equalFloats(degreesToRadian(180), Math.PI), "Wrong radian (180 degree is pi)");
+		assert(equalFloats(degreesToRadian(360), Math.PI * 2), "Wrong radian (360 degree is 2pi)");
+		assert(equalFloats(degreesToRadian(405), Math.PI * 2 + Math.PI / 4), "Wrong radian (405 degree is 2pi and pi/4)");
+	},
+	
+	testRotateVector : function() {
+		var v = new Vector2D(1, 1);
+		assert(equalVectors(rotateVector(v, 90), new Vector2D(-1, 1)), "Resulting vector is wrong");
+		assert(equalVectors(rotateVector(v, 180), new Vector2D(-1, -1)), "Resulting vector is wrong");
+		assert(equalVectors(rotateVector(v, 270), new Vector2D(1, -1)), "Resulting vector is wrong");
+		assert(equalVectors(rotateVector(v, -90), new Vector2D(1, -1)), "Resulting vector is wrong");
+		assert(equalVectors(rotateVector(v, 360), new Vector2D(1, 1)), "Resulting vector is wrong");
+		assert(equalVectors(rotateVector(v, 450), new Vector2D(-1, 1)), "Resulting vector is wrong");
+		assert(equalVectors(rotateVector(v, 0), new Vector2D(1, 1)), "Resulting vector is wrong");
 	}
 }

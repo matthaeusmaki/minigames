@@ -91,4 +91,21 @@ function unitVector(v) {
 	return v;
 }
 
+// Rotation
 
+function degreesToRadian(degrees) { 
+	return degrees * Math.PI / 180.0;
+}
+
+/**
+ * Returns a rotated Vector2D
+ * @param v : Vector2D to rotate
+ * @param degrees : rotate by this angle (not radian)
+ * @return Vector2D
+ */
+function rotateVector(v, degrees) {
+	var rad = degreesToRadian(degrees);
+	var sine = Math.sin(rad);
+	var cosine = Math.cos(rad);
+	return new Vector2D(v.x * cosine - v.y * sine, v.x * sine + v.y * cosine);
+}
