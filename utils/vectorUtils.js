@@ -109,3 +109,13 @@ function rotateVector(v, degrees) {
 	var cosine = Math.cos(rad);
 	return new Vector2D(v.x * cosine - v.y * sine, v.x * sine + v.y * cosine);
 }
+
+/**
+ * Returns the dot product of 2 Vector2D.
+ * @param v1: Vector2D
+ * @param v2: Vector2D
+ * @return float
+ */
+function dotProduct(v1, v2) {
+	return v1.x * v2.x + v1.y * v2.y;
+}

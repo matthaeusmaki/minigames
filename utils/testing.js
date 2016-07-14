@@ -138,14 +138,53 @@ var vectorTests =  {
 		assert(equalFloats(degreesToRadian(405), Math.PI * 2 + Math.PI / 4), "Wrong radian (405 degree is 2pi and pi/4)");
 	},
 	
-	testRotateVector : function() {
+	testRotateVector90 : function() {
 		var v = new Vector2D(1, 1);
 		assert(equalVectors(rotateVector(v, 90), new Vector2D(-1, 1)), "Resulting vector is wrong");
+	},
+	testRotateVector180 : function() {
+		var v = new Vector2D(1, 1);
 		assert(equalVectors(rotateVector(v, 180), new Vector2D(-1, -1)), "Resulting vector is wrong");
+	},
+	testRotateVector270 : function() {
+		var v = new Vector2D(1, 1);
 		assert(equalVectors(rotateVector(v, 270), new Vector2D(1, -1)), "Resulting vector is wrong");
+	},
+	testRotateVectorMinus90 : function() {
+		var v = new Vector2D(1, 1);
 		assert(equalVectors(rotateVector(v, -90), new Vector2D(1, -1)), "Resulting vector is wrong");
+	},
+	testRotateVector360 : function() {
+		var v = new Vector2D(1, 1);
 		assert(equalVectors(rotateVector(v, 360), new Vector2D(1, 1)), "Resulting vector is wrong");
+	},
+	testRotateVector450 : function() {
+		var v = new Vector2D(1, 1);
 		assert(equalVectors(rotateVector(v, 450), new Vector2D(-1, 1)), "Resulting vector is wrong");
+	},
+	testRotateVector0 : function() {
+		var v = new Vector2D(1, 1);
 		assert(equalVectors(rotateVector(v, 0), new Vector2D(1, 1)), "Resulting vector is wrong");
+	},
+	
+	testDotProduct0 : function() {
+		var v1 = new Vector2D(8, 2);
+		var v2 = new Vector2D(-2, 8);
+		var v3 = new Vector2D(-5, 5);
+		assert(equalFloats(0, dotProduct(v1, v2)), "Dot product is wrong");
+	},
+	testDotProduct1 : function() {
+		var v1 = new Vector2D(8, 2);
+		var v2 = new Vector2D(-2, 8);
+		var v3 = new Vector2D(-5, 5);
+		assert(0 > dotProduct(v1, v3), "Dot product is wrong");
+	},
+	testDotProduct2 : function() {
+		var v1 = new Vector2D(8, 2);
+		var v2 = new Vector2D(-2, 8);
+		var v3 = new Vector2D(-5, 5);
+		assert(0 < dotProduct(v2, v3), "Dot product is wrong");
 	}
+	
+	
 }
