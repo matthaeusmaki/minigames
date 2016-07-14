@@ -1,7 +1,9 @@
 /**
  * Helper for testing javascript code
  */
-
+var FAILED = "failed";
+var ERROR = "error";
+ 
 /**
  * Generates an output if the outcome failes
  * @param outcome : a boolean that indicates whether the test passed or failed
@@ -10,8 +12,7 @@
  function assert(outcome, description) {
 	 if (!outcome) {
 		var err = new Error(description !== undefined ? description : "assert error");
-		//var stack = err.stack.split("@");
-		//console.error(err + ": " + stack[2]);
+		err.type = FAILED;
 		throw err;
 	 }
  }
@@ -47,16 +48,21 @@ function assertEqualVectors(v1, v2) {
  */
 function runTests() {
 	var errors = 0;
+	var failed = 0;
 	var allTests = Object.getOwnPropertyNames(vectorTests);
 	for (var t in allTests) {
 		try {
 			vectorTests[allTests[t]]();			
 		} catch (err) {
+			if (err.type == FAILED) {
+				failed++;
+			} else {
+				errors++;				
+			}
 			console.warn(allTests[t] + " has failed: " + err.message);
-			errors++;
 		}
 	}
-	return allTests.length-errors + "/" + allTests.length + " tests successfull, " + errors + " errors";
+	return allTests.length-errors + "/" + allTests.length + " tests successfull, " + failed + " failures, " + errors + " errors";
 }
  
 var vectorTests =  {
