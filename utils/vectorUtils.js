@@ -168,3 +168,54 @@ function projectVector(project, onto) {
 //	Shapes
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+ /**
+ * Line prototype
+ * @param base : Vector2D
+ * @param direction : Vector2D
+ */
+function Line(base, direction) {
+	this.base = base;
+	this.direction = direction;
+}
+
+/**
+ * Linesegment prototype
+ * @param point1 : Vector2D
+ * @param point2 : Vector2D
+ */
+function Segment(point1, point2) {
+	this.point1 = point1;
+	this.point2 = point2;
+}
+
+/**
+ * Circle prototype
+ * @param center : Vector2D
+ * @param radius : float
+ */
+function Circle(center, radius) {
+	this.center = center;
+	this.radius = radius;
+}
+
+/**
+ * Rectangle prototype
+ * @param origin : Vector2D
+ * @param size : Vector2D
+ */
+function Rectangle(origin, size) {
+	this.origin = origin;
+	this.size = size;
+}
+
+/**
+ * Oriented rectangle prototype
+ * @param center : Vector2D center of the rectangle
+ * @param halfExtend : Vector2D half the size
+ * @param rotation : float 
+ */
+function OrientedRectangle(center, halfExtend, rotation) {
+	this.center = center;
+	this.halfExtend = halfExtend;
+	this.rotation = rotation;
+}
