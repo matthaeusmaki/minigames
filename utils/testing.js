@@ -47,21 +47,21 @@ function equalVectors(v1, v2) {
  */
 function runTests() {
 	var errors = 0;
-	var failed = 0;
+	var failures = 0;
 	var allTests = Object.getOwnPropertyNames(vectorTests);
 	for (var t in allTests) {
 		try {
 			vectorTests[allTests[t]]();			
 		} catch (err) {
 			if (err.type == FAILED) {
-				failed++;
+				failures++;
 			} else {
 				errors++;				
 			}
 			console.warn(allTests[t] + " has failed: " + err.message);
 		}
 	}
-	console.log(allTests.length-errors + "/" + allTests.length + " tests successfull, " + failed + " failures, " + errors + " errors");
+	console.log(allTests.length-errors-failures + "/" + allTests.length + " tests successfull, " + failures + " failures, " + errors + " errors");
 }
  
 var vectorTests =  {
@@ -137,6 +137,13 @@ var vectorTests =  {
 		assert(equalFloats(degreesToRadian(360), Math.PI * 2), "Wrong radian (360 degree is 2pi)");
 		assert(equalFloats(degreesToRadian(405), Math.PI * 2 + Math.PI / 4), "Wrong radian (405 degree is 2pi and pi/4)");
 	},
+	testRadianToDegrees : function() {
+		assert(equalFloats(radianToDegrees(0), 0), "Wrong radian (0 degree is 0)");
+		assert(equalFloats(radianToDegrees(Math.PI / 2), 90), "Wrong radian (90 degree is pi/2)");
+		assert(equalFloats(radianToDegrees(Math.PI), 180), "Wrong radian (180 degree is pi)");
+		assert(equalFloats(radianToDegrees(Math.PI * 2), 360), "Wrong radian (360 degree is 2pi)");
+		assert(equalFloats(radianToDegrees(Math.PI * 2 + Math.PI / 4), 405), "Wrong radian (405 degree is 2pi and pi/4)");
+	},
 	
 	testRotateVector90 : function() {
 		var v = new Vector2D(1, 1);
@@ -184,6 +191,13 @@ var vectorTests =  {
 		var v2 = new Vector2D(-2, 8);
 		var v3 = new Vector2D(-5, 5);
 		assert(0 < dotProduct(v2, v3), "Dot product is wrong");
+	},
+	
+	testEnclosedAngle : function() {
+		var a = new Vector2D(8,2);
+		var b = new Vector2D(-2, 8);
+		assert(equalFloats(90, enclosedAngle(a, b)), "Wrong angle");
+		assert(equalFloats(0, dotProduct(a, b)));
 	}
 	
 	

@@ -93,8 +93,22 @@ function unitVector(v) {
 
 // Rotation
 
+/**
+ * Converts a degrees to radian
+ * @param degrees : float
+ * @return float
+ */
 function degreesToRadian(degrees) { 
 	return degrees * Math.PI / 180.0;
+}
+
+/**
+ * Converts a radian to degrees
+ * @param radian : float
+ * @return float
+ */
+function radianToDegrees(radian) {
+	return radian * 180.0 / Math.PI;
 }
 
 /**
@@ -119,3 +133,18 @@ function rotateVector(v, degrees) {
 function dotProduct(v1, v2) {
 	return v1.x * v2.x + v1.y * v2.y;
 }
+
+/**
+ * Returns angle between two vectors
+ * @param v1 : Vector2D
+ * @param v2 : Vector2D
+ * @return float
+ */
+function enclosedAngle(v1, v2) {
+	var unitV1 = unitVector(v1);
+	var unitV2 = unitVector(v2);
+	var dp = dotProduct(unitV1, unitV2);
+	return radianToDegrees(Math.acos(dp));
+}
+
+// Projection
