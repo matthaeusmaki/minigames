@@ -148,3 +148,23 @@ function enclosedAngle(v1, v2) {
 }
 
 // Projection
+
+/**
+ * Returns a Vector2D which is the result of projecting a vector onto another
+ * @param project : Vector2D to project
+ * @param onto : Vector2D to project  onto
+* @return Vector2D 
+ */
+function projectVector(project, onto) {
+	var d = dotProduct(onto, onto);
+	if (d > 0) {
+		var dp = dotProduct(project, onto);
+		return multiplyVector(onto, dp / d);
+	}
+	return onto;
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//	Shapes
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+

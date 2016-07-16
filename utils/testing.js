@@ -198,7 +198,11 @@ var vectorTests =  {
 		var b = new Vector2D(-2, 8);
 		assert(equalFloats(90, enclosedAngle(a, b)), "Wrong angle");
 		assert(equalFloats(0, dotProduct(a, b)));
+	},
+	
+	testProjectVector : function() {
+		var a = new Vector2D(12, 5);
+		var b = new Vector2D(5, 6);
+		assert(equalVectors(projectVector(b, a), new Vector2D(6.390532544378699, 2.6627218934911245)), "Projection is wrong");
 	}
-	
-	
 }
