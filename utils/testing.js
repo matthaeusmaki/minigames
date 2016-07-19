@@ -17,27 +17,6 @@ const ERROR = "error";
 	 }
  }
  
- /**
- * Returns true if float f1 and float f2 are equal with an tolerance of 1.0/8192.0, false otherwise
- * @param f1 : float
- * @param f2 : float
- * @return boolean
- */
-function equalFloats(f1, f2) {
-	var threshold = 1.0 / 8192.0;
-	return Math.abs(f1 - f2) < threshold;
-}
-
-/**
- *	If Vector2D v1 is the same as Vector2D v2, this function does nothing. Otherwise it throws an error.
- * @param v1 : Vector2D
- * @param v2 : Vector2D
- * @return boolean
- */
-function equalVectors(v1, v2) {
-	return equalFloats(v1.x, v2.x) && equalFloats(v1.y, v2.y);
-}
- 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //	Unittests for Vector2D functions
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -229,7 +208,7 @@ var vectorTests =  {
 		var b = new Vector2D(2, 3);
 		var c = new Vector2D(3, 4);
 		assert(pointCollide(a, b), "Should collide");
-		assert(pointCollide(b, c), "Should collide");
+		assert(!pointCollide(b, c), "Should not collide");
 		assert(!pointCollide(a, c), "Should not collide");
 	}
 	
