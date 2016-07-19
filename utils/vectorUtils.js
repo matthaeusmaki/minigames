@@ -219,3 +219,41 @@ function OrientedRectangle(center, halfExtend, rotation) {
 	this.halfExtend = halfExtend;
 	this.rotation = rotation;
 }
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//	Collision
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// rectangle-rectangle
+
+/**
+ * Checking overlapping values
+ * @param minA : float
+ * @param maxA : float
+ * @param minB : float
+ * @param maxB : float
+ * @return boolean
+ */
+function overlapping(minA, maxA, minB, maxB) {
+	return minB <= maxA && minA <= maxB;
+}
+
+/**
+ * Checks collision between two Rectangles
+ * @param a : Rectangle
+ * @param b : Rectangle
+ * @return boolean
+ */
+function rectangleCollide(a, b) {
+	var aLeft = a.origin.x;
+	var aRight = aLeft + a.size.x;
+	var bLeft = b.origin.x;
+	var bRight = bLeft + b.size.x;
+	
+	var aBottom = a.origin.y;
+	var aTop = aBottom + a.size.y;
+	var bBottom = b.origin.y;
+	var bTop = bBottom + b.size.y;
+	
+	return overlapping(aLeft, aRight, bLeft, bRight) && overlapping(aBottom, aTop, bBottom, bTop);
+}

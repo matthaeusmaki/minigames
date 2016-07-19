@@ -1,8 +1,8 @@
 /**
  * Helper for testing javascript code
  */
-var FAILED = "failed";
-var ERROR = "error";
+const FAILED = "failed";
+const ERROR = "error";
  
 /**
  * Generates an output if the outcome failes
@@ -204,5 +204,14 @@ var vectorTests =  {
 		var a = new Vector2D(12, 5);
 		var b = new Vector2D(5, 6);
 		assert(equalVectors(projectVector(b, a), new Vector2D(6.390532544378699, 2.6627218934911245)), "Projection is wrong");
+	},
+	
+	testRectangleCollision : function() {
+		var a = new Rectangle(new Vector2D(1, 1), new Vector2D(4, 4));
+		var b = new Rectangle(new Vector2D(2, 2), new Vector2D(5, 5));
+		var c = new Rectangle(new Vector2D(6, 4), new Vector2D(4, 2));
+		assert(rectangleCollide(a, b), "Should collide");
+		assert(rectangleCollide(b, c), "Should collide");
+		assert(!rectangleCollide(a, c), "Should not collide");
 	}
 }
