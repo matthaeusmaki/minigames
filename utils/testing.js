@@ -222,5 +222,15 @@ var vectorTests =  {
 		assert(circleCollide(a, b), "Should collide");
 		assert(circleCollide(b, c), "Should collide");
 		assert(!circleCollide(a, c), "Should not collide");
+	},
+	
+	testPointCollision : function() {
+		var a = new Vector2D(2, 3);
+		var b = new Vector2D(2, 3);
+		var c = new Vector2D(3, 4);
+		assert(pointCollide(a, b), "Should collide");
+		assert(pointCollide(b, c), "Should collide");
+		assert(!pointCollide(a, c), "Should not collide");
 	}
+	
 }

@@ -16,6 +16,27 @@
 	this.x = x;
 	this.y = y;
 }
+
+ /**
+ * Returns true if float f1 and float f2 are equal with an tolerance of 1.0/8192.0, false otherwise
+ * @param f1 : float
+ * @param f2 : float
+ * @return boolean
+ */
+function equalFloats(f1, f2) {
+	var threshold = 1.0 / 8192.0;
+	return Math.abs(f1 - f2) < threshold;
+}
+
+/**
+ *	If Vector2D v1 is the same as Vector2D v2, this function does nothing. Otherwise it throws an error.
+ * @param v1 : Vector2D
+ * @param v2 : Vector2D
+ * @return boolean
+ */
+function equalVectors(v1, v2) {
+	return equalFloats(v1.x, v2.x) && equalFloats(v1.y, v2.y);
+}
  
  /**
   * Returns a new Vector2D which contains the sum of 2 Vector2D
@@ -270,4 +291,16 @@ function circleCollide(a, b) {
 	var radiusSum = a.radius + b.radius;
 	var distance = subtractVector(a.center, b.center);
 	return vectorLength(distance) <= radiusSum;
+}
+
+// point-point
+
+/**
+ * Checking point intersection
+ * @param a : Vector2D
+ * @param b : Vector2D
+ * @return boolean
+ */
+function pointCollide(a, b) {
+	return equalVectors(a, b);
 }
