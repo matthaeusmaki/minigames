@@ -239,7 +239,7 @@ function overlapping(minA, maxA, minB, maxB) {
 }
 
 /**
- * Checks collision between two Rectangles
+ * Checking rectangle intersection
  * @param a : Rectangle
  * @param b : Rectangle
  * @return boolean
@@ -256,4 +256,18 @@ function rectangleCollide(a, b) {
 	var bTop = bBottom + b.size.y;
 	
 	return overlapping(aLeft, aRight, bLeft, bRight) && overlapping(aBottom, aTop, bBottom, bTop);
+}
+
+// circle-circle
+
+/**
+ * Checking circle intersection
+ * @param a : Circle
+ * @param b : Circle
+ * @return boolean
+ */
+function circleCollide(a, b) {
+	var radiusSum = a.radius + b.radius;
+	var distance = subtractVector(a.center, b.center);
+	return vectorLength(distance) <= radiusSum;
 }
