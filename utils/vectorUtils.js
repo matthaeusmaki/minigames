@@ -146,6 +146,15 @@ function rotateVector(v, degrees) {
 }
 
 /**
+ * Returns a Vector2D rotated by 90 degree
+ * @param v : Vector2D
+ * @return Vector2D
+ */
+function rotateVector90(v) {
+	return new Vector2D(-v.y, v.x);
+}
+
+/**
  * Returns the dot product of 2 Vector2D.
  * @param v1: Vector2D
  * @param v2: Vector2D
@@ -265,7 +274,7 @@ function overlapping(minA, maxA, minB, maxB) {
  * @param b : Rectangle
  * @return boolean
  */
-function rectangleCollide(a, b) {
+function rectanglesCollide(a, b) {
 	var aLeft = a.origin.x;
 	var aRight = aLeft + a.size.x;
 	var bLeft = b.origin.x;
@@ -287,7 +296,7 @@ function rectangleCollide(a, b) {
  * @param b : Circle
  * @return boolean
  */
-function circleCollide(a, b) {
+function circlesCollide(a, b) {
 	var radiusSum = a.radius + b.radius;
 	var distance = subtractVector(a.center, b.center);
 	return vectorLength(distance) <= radiusSum;
@@ -301,6 +310,47 @@ function circleCollide(a, b) {
  * @param b : Vector2D
  * @return boolean
  */
-function pointCollide(a, b) {
+function pointsCollide(a, b) {
 	return equalVectors(a, b);
+}
+
+// line-line
+
+/**
+ * Returns true if two Vector2D are parallel, false otherwise
+ * @param a
+ * @param b
+ * @return boolean
+ */
+function parallelVectors(a, b) {
+	var na = rotateVector90(a)
+	return equalFloats(0, dotProduct(na, b));
+}
+
+/**
+ * Returns true if two Lines are equivalent.
+ * @param a
+ * @param b
+ * @return boolean
+ */
+function equivalentLines(a, b) {
+	if (!parallelVectors(a.direction, b.direction)) {
+		return false;
+	}
+	var d = subtractVector(a.base, b.base);
+	return parallelVectors(d, a.direction);
+}
+
+/**
+ * Returns true if two Lines collide, false otherwise
+ * @param a
+ * @param b
+ * @return boolean
+ */
+function linesCollide(a, b) {
+	if (parallelVectors(a.direction, b.direction)) {
+		return equivalentLines(a, b);
+	} else {
+		return true;
+	}
 }

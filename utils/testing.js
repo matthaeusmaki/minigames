@@ -128,6 +128,10 @@ var vectorTests =  {
 		var v = new Vector2D(1, 1);
 		assert(equalVectors(rotateVector(v, 90), new Vector2D(-1, 1)), "Resulting vector is wrong");
 	},
+	testRotateVector90_2 : function() {
+		var v = new Vector2D(1, 1);
+		assert(equalVectors(rotateVector90(v), new Vector2D(-1, 1)), "Resulting vector is wrong");
+	},
 	testRotateVector180 : function() {
 		var v = new Vector2D(1, 1);
 		assert(equalVectors(rotateVector(v, 180), new Vector2D(-1, -1)), "Resulting vector is wrong");
@@ -189,27 +193,53 @@ var vectorTests =  {
 		var a = new Rectangle(new Vector2D(1, 1), new Vector2D(4, 4));
 		var b = new Rectangle(new Vector2D(2, 2), new Vector2D(5, 5));
 		var c = new Rectangle(new Vector2D(6, 4), new Vector2D(4, 2));
-		assert(rectangleCollide(a, b), "Should collide");
-		assert(rectangleCollide(b, c), "Should collide");
-		assert(!rectangleCollide(a, c), "Should not collide");
+		assert(rectanglesCollide(a, b), "Should collide");
+		assert(rectanglesCollide(b, c), "Should collide");
+		assert(!rectanglesCollide(a, c), "Should not collide");
 	},
 	
 	testCircleCollision : function() {
 		var a = new Circle(new Vector2D(4, 4), 2);
 		var b = new Circle(new Vector2D(7, 4), 2);
 		var c = new Circle(new Vector2D(10, 4), 2);
-		assert(circleCollide(a, b), "Should collide");
-		assert(circleCollide(b, c), "Should collide");
-		assert(!circleCollide(a, c), "Should not collide");
+		assert(circlesCollide(a, b), "Should collide");
+		assert(circlesCollide(b, c), "Should collide");
+		assert(!circlesCollide(a, c), "Should not collide");
 	},
 	
 	testPointCollision : function() {
 		var a = new Vector2D(2, 3);
 		var b = new Vector2D(2, 3);
 		var c = new Vector2D(3, 4);
-		assert(pointCollide(a, b), "Should collide");
-		assert(!pointCollide(b, c), "Should not collide");
-		assert(!pointCollide(a, c), "Should not collide");
+		assert(pointsCollide(a, b), "Should collide");
+		assert(!pointsCollide(b, c), "Should not collide");
+		assert(!pointsCollide(a, c), "Should not collide");
+	},
+
+	testParallelVectors : function() {
+		var a = new Vector2D(2, 2);
+		var b = new Vector2D(3, 3);
+		var c = new Vector2D(1, 2);
+		assert(parallelVectors(a,b), "Vectors should be parallel");
+		assert(!parallelVectors(a, c), "Vectors should not be parallel");
+	},
+
+	testLinesCollide : function() {
+		var a = new Vector2D(3, 5);
+		var b = new Vector2D(3, 2);
+		var c = new Vector2D(8, 4);
+
+		var down = new Vector2D(5, -1);
+		var up = new Vector2D(5, 2);
+
+		var l1 = new Line(a, down);
+		var l2 = new Line(a, up);
+		var l3 = new Line(b, up);
+		var l4 = new Line(c, down);
+
+		assert(linesCollide(l1, l2), "Collision expected between line l1 and l2");
+		assert(linesCollide(l1, l3), "Collision expected between line l1 and l3");
+		assert(!linesCollide(l2, l3), "No Collision expected between line l2 and l3");
+		assert(linesCollide(l1, l4), "Collision expected between line l1 and l4");
 	}
-	
 }
