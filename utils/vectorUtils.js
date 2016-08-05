@@ -250,6 +250,11 @@ function OrientedRectangle(center, halfExtend, rotation) {
 	this.rotation = rotation;
 }
 
+function Range(min, max) {
+	this.minimum = min;
+	this.maximum = max;
+}
+
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //	Collision
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -350,6 +355,83 @@ function equivalentLines(a, b) {
 function linesCollide(a, b) {
 	if (parallelVectors(a.direction, b.direction)) {
 		return equivalentLines(a, b);
+	} else {
+		return true;
+	}
+}
+
+// linesegment-linesegment
+
+/**
+ * Returns true if both end points of a Line are on the same side of an given axis.
+ * @param a : Line
+ * @param s : Segment
+ * @return boolean
+ */
+function onOneSide(axis, s) {
+	var d1 = subtractVector(s.point1, axis.base);
+	var d2 = subtractVector(s.point2, axis.base);
+	var n = rotateVector90(axis.direction);
+	// if the dot product is 0, the endpoints are on the axis. This means "not separating"
+	return dotProduct(n, d1) * dotProduct(n, d2) > 0;
+}
+
+/**
+ * Sorts the minimum and maximum of a Range
+ * @param r : Range
+ * @return Range
+ */
+function sortRange(r) {
+	if (r.minimum > r.maximum) {
+		return new Range(r.maximum, r.minimum);
+	}
+	return r;
+}
+
+/**
+ * Projects a Segmonte onto the given Vector2D
+ * @param s : Segment
+ * @param onto : Vector2D
+ * @return Range
+ */
+function projectSegment(s, onto) {
+	var ontoUnit = unitVector(onto);
+	var r = new Range(
+		dotProduct(ontoUnit, s.point1),
+		dotProduct(ontoUnit, s.point2)
+	);
+	return sortRange(r);
+}
+
+/**
+ *
+ * @param a : Range
+ * @param b : Range
+ * @return boolean
+ */
+function overlappingRanges(a, b) {
+	return overlapping(a.minimum, a.maximum, b.minimum, b.maximum);
+}
+
+/**
+ * Checks collision between two Segments
+ * @param a : Segment
+ * @param b : Segment
+ * @return boolean
+ */
+function segmentsCollide(a, b) {
+	var axisA = new Line(a.point1, subtractVector(a.point2, a.point1));
+	if (onOneSide(axisA, b)) {
+		return false;
+	}
+	var axisB = new Line(b.point1, subtractVector(b.point2, b.point1));
+	if (onOneSide(axisB, a)) {
+		return false;
+	}
+	if (parallelVectors(axisA.direction, axisB.direction)) {
+		var rangeA = projectSegment(a, axisA.direction);
+		var rangeB = projectSegment(a, axisB.direction);
+		return overlappingRanges(rangeA, rangeB);
 	} else {
 		return true;
 	}
