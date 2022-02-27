@@ -8,7 +8,6 @@ var now,
 	last,
 	step = 1 / 60;
 
-
 GAME.stage = {
 	id: "stageId",
 	classes: "stage",
@@ -20,14 +19,10 @@ GAME.stage = {
 	}
 };
 
-GAME.block = {
-	classes: "block",
-	width: 5,
-	height: 5,
-	position: {
-		x: 0,
-		y: 0
-	}
+GAME.blocks = {
+	list: [],
+	width: 10,
+	height: 10
 };
 
 GAME.paddle = {
@@ -53,7 +48,7 @@ GAME.init = function () {
 	last = timestamp();
 	this.createStage();
 	this.createPaddle();
-	// GAME.createBlocks();
+	this.createBlocks();
 	requestAnimationFrame(this.update);
 };
 
@@ -79,18 +74,26 @@ GAME.createBlocks = function () {
 	}
 };
 
-GAME.createBlock = function (id, pos) {
-	// var block = {
-	// id: id,
-	// classes: "block",
-	// width: 5,
-	// height: 5,
-	// position: {
-	// x: pos.x,
-	// y: pos.y
-	// },
-	// model: undefined
-	// };
+GAME.createBlocks = function (id, pos) {
+	let basePos = { x: 30, y: 30 };
+	let gap = 5;
+	for (let i = 0; i < 49; i++) {
+		for (let j = 0; j < 10; j++) {
+			let block = {
+				id: "blockId_" + i + "_" + j,
+				classes: "block",
+				width: this.blocks.width,
+				height: this.blocks.height,
+				position: {
+					x: basePos.x + i * (this.blocks.width + gap),
+					y: basePos.y + j * (this.blocks.height + gap)
+				}
+			}
+			block.model = this.createGameObject(block);
+			this.blocks.list.push(block);
+		}
+	}
+
 	//block.model = this.createGameObject(block);
 };
 
