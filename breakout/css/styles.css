@@ -1,3 +1,14 @@
 /*
  * Styles for breakout
  */
+ .paddle {
+     border: 1px solid black;
+ }
+
+ .stage {
+     background-color: lightgrey;
+ }
+
+ .block {
+     background-color: grey;
+ }

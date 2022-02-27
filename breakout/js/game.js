@@ -6,12 +6,18 @@ var GAME = {};
 var now,
 	dt = 0,
 	last,
-	step = 1/60;
+	step = 1 / 60;
 
 
 GAME.stage = {
-	width: 400,
-	height: 400
+	id: "stageId",
+	classes: "stage",
+	width: 800,
+	height: 600,
+	position: {
+		x: 0,
+		y: 0
+	}
 };
 
 GAME.block = {
@@ -21,70 +27,83 @@ GAME.block = {
 	position: {
 		x: 0,
 		y: 0
-	},
-	model: undefined
+	}
 };
 
 GAME.paddle = {
 	id: "paddleId",
+	classes: "paddle",
 	width: 50,
 	height: 5,
 	position: {
 		x: 0,
 		y: 0
 	},
-	setX: function(value) {
+	setX: function (value) {
 		this.position.x = value;
 		this.model.style.left = asPx(value);
 	},
-	setY: function(value) {
+	setY: function (value) {
 		this.position.y = value;
 		this.model.style.top = asPx(value);
 	}
 };
 
-GAME.init = function() {
+GAME.init = function () {
 	last = timestamp();
-	GAME.createPaddle();
+	this.createStage();
+	this.createPaddle();
 	// GAME.createBlocks();
-	requestAnimationFrame(GAME.update);
+	requestAnimationFrame(this.update);
 };
 
-GAME.createStage = function() {
-	// TODO: create the stage
+// //////////////////////////////////////////////////////////////////////////////////////
+// Creation
+// //////////////////////////////////////////////////////////////////////////////////////
+
+GAME.createStage = function () {
+	this.stage.model = this.createGameObject(this.stage);
 };
 
-GAME.createPaddle = function() {
-	GAME.paddle.model = createElement(GAME.paddle.id, "", GAME.paddle.width, GAME.paddle.height, GAME.paddle.position, "green");
-	GAME.paddle.setX(GAME.stage.width/2 - GAME.paddle.width/2);
-	GAME.paddle.setY(GAME.stage.height - GAME.paddle.height + 10);
+GAME.createPaddle = function () {
+	this.paddle.model = this.createGameObject(this.paddle);
+	this.paddle.setX(this.stage.width / 2 - this.paddle.width / 2);
+	this.paddle.setY(this.stage.height - this.paddle.height - 10);
 };
 
-GAME.createBlocks = function() {
+GAME.createBlocks = function () {
 	for (var i = 0; i < 20; i++) {
 		for (var j = 0; j < 10; j++) {
-			GAME.createBlock("block_"+i +"_"+j, {x: i, y:j});
+			this.createBlock("block_" + i + "_" + j, { x: i, y: j });
 		}
 	}
 };
 
-GAME.createBlock = function(id, pos) {
+GAME.createBlock = function (id, pos) {
 	// var block = {
-		// id: id,
-		// classes: "block",
-		// width: 5,
-		// height: 5,
-		// position: {
-			// x: pos.x,
-			// y: pos.y
-		// },
-		// model: undefined
+	// id: id,
+	// classes: "block",
+	// width: 5,
+	// height: 5,
+	// position: {
+	// x: pos.x,
+	// y: pos.y
+	// },
+	// model: undefined
 	// };
-	block.model = createElement(block.id, block.classes, block.width, block.height, block.position, "red");
+	//block.model = this.createGameObject(block);
 };
 
+GAME.createGameObject = function (obj) {
+	return createElement(obj.id, obj.classes, obj.width, obj.height, obj.position);
+};
+
+// //////////////////////////////////////////////////////////////////////////////////////
+// Game simulation
+// //////////////////////////////////////////////////////////////////////////////////////
+
 // Gameloop
-GAME.update = function() {
+GAME.update = function () {
 	now = timestamp();
 	dt = dt + Math.min(1, (now - last) / 1000);
 	while (dt > step) {
@@ -100,9 +119,9 @@ GAME.update = function() {
 var paddleTestStep = 200;
 
 // Simulation
-GAME.updatePaddle = function(step) {
-	GAME.paddle.setX(GAME.paddle.position.x + paddleTestStep*step);
-	if (GAME.paddle.position.x >= GAME.stage.width || GAME.paddle.position.x <= 0) {
+GAME.updatePaddle = function (step) {
+	this.paddle.setX(GAME.paddle.position.x + paddleTestStep * step);
+	if (this.paddle.position.x <= 0 || this.paddle.position.x + this.paddle.width >= this.stage.width) {
 		paddleTestStep *= -1;
 	}
 };

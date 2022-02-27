@@ -28,21 +28,23 @@ function asNum(value) {
 // Element creation
 // //////////////////////////////////////////////////////////////////
 
- /**
- * Creates a div, adds it to body and returns it.
- * id : className
- * width : width of div
- * height : height of div
- * position : object with x and y value
- * color : color or background-image of div
- */
+/**
+* Creates a div, adds it to body and returns it.
+* id : className
+* width : width of div
+* height : height of div
+* position : object with x and y value
+* color : color or background-image of div
+*/
 function createElement(id, styleClass, width, height, position, color) {
 	var model = document.createElement("div");
 	model.id = id;
 	model.className += styleClass;
 	model.style.width = asPx(width);
 	model.style.height = asPx(height);
-	model.style.background = color != "" ? color : "transparent";
+	if (model.className == undefined || model.className === "") {
+		model.style.background = color != undefined && color != null && color != "" ? color : "red";
+	}
 	model.style.position = "absolute";
 	model.style.left = asPx(position.x);
 	model.style.top = asPx(position.y);
@@ -69,15 +71,15 @@ function removeElement(element) {
  * updateFPS: function updates the counter respectively the fps value
  */
 var FPSinfo = {
-	fps : 0,
-	box : undefined,
-	startTime : undefined,
-	counter : 0,
-	createFPSbox : function() {
+	fps: 0,
+	box: undefined,
+	startTime: undefined,
+	counter: 0,
+	createFPSbox: function () {
 		box = document.createElement("div");
 		box.style.position = "absolute";
 		box.style.top = asPx(10);
-		box.style.left = asPx(config.world.width-60);
+		box.style.left = asPx(config.world.width - 60);
 		box.style.border = "1px solid black";
 		box.style.zIndex = "999";
 		box.id = "fps"
@@ -85,7 +87,7 @@ var FPSinfo = {
 		document.body.appendChild(box);
 		this.startTime = new Date().getTime();
 	},
-	updateFPS : function() {
+	updateFPS: function () {
 		this.counter++;
 		var now = new Date().getTime();
 		if (now - this.startTime > 1000) {
