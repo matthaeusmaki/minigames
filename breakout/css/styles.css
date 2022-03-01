@@ -12,3 +12,8 @@
  .block {
      border: 1px solid black;
  }
+
+ .ball {
+     border: 1px solid black;
+     border-radius: 5px;
+ }

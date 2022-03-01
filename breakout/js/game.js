@@ -1,9 +1,15 @@
 /*
- * Game script for breakout
+ * breakout
  */
 
-var GAME = {};
-var now,
+// //////////////////////////////////////////////////////////////////////////////////////
+// Game Objects
+// //////////////////////////////////////////////////////////////////////////////////////
+
+let GAME = {};
+let paddleTestStep = 200;
+let ballStep = 200;
+let now,
 	dt = 0,
 	last,
 	step = 1 / 60;
@@ -44,12 +50,37 @@ GAME.paddle = {
 	}
 };
 
+GAME.ball = {
+	id: "ballId",
+	classes: "ball",
+	width: 5,
+	height: 5,
+	position: {
+		x: 0,
+		y: 0
+	},
+	setX: function (value) {
+		this.position.x = value;
+		this.model.style.left = asPx(value);
+	},
+	setY: function (value) {
+		this.position.y = value;
+		this.model.style.top = asPx(value);
+	}
+};
+
+// //////////////////////////////////////////////////////////////////////////////////////
+// Init
+// //////////////////////////////////////////////////////////////////////////////////////
+
 GAME.init = function () {
-	last = timestamp();
+	last = currentTime();
 	this.createStage();
 	this.createPaddle();
 	this.createBlocks();
-	requestAnimationFrame(this.update);
+	this.createBall();
+	FPSinfo.createFPSbox();
+	requestAnimationFrame(this.gameLoop);
 };
 
 // //////////////////////////////////////////////////////////////////////////////////////
@@ -61,14 +92,14 @@ GAME.createStage = function () {
 };
 
 GAME.createPaddle = function () {
+	this.paddle.position.x = this.stage.width / 2 - this.paddle.width / 2;
+	this.paddle.position.y = this.stage.height - this.paddle.height - 10;
 	this.paddle.model = this.createGameObject(this.paddle);
-	this.paddle.setX(this.stage.width / 2 - this.paddle.width / 2);
-	this.paddle.setY(this.stage.height - this.paddle.height - 10);
 };
 
 GAME.createBlocks = function () {
-	for (var i = 0; i < 20; i++) {
-		for (var j = 0; j < 10; j++) {
+	for (let i = 0; i < 20; i++) {
+		for (let j = 0; j < 10; j++) {
 			this.createBlock("block_" + i + "_" + j, { x: i, y: j });
 		}
 	}
@@ -93,8 +124,12 @@ GAME.createBlocks = function (id, pos) {
 			this.blocks.list.push(block);
 		}
 	}
+};
 
-	//block.model = this.createGameObject(block);
+GAME.createBall = function () {
+	this.ball.position.x = this.stage.width / 2;
+	this.ball.position.y = this.stage.height * 2 / 3;
+	this.ball.model = this.createGameObject(this.ball);
 };
 
 GAME.createGameObject = function (obj) {
@@ -106,25 +141,31 @@ GAME.createGameObject = function (obj) {
 // //////////////////////////////////////////////////////////////////////////////////////
 
 // Gameloop
-GAME.update = function () {
-	now = timestamp();
-	dt = dt + Math.min(1, (now - last) / 1000);
+GAME.gameLoop = function (timestamp) {
+	dt = dt + Math.min(1, (timestamp - last) / 1000);
+	last = timestamp;
 	while (dt > step) {
 		dt = dt - step;
-		// TODO: simulate game with step
 		GAME.updatePaddle(step);
+		GAME.updateBall(step);
 	}
-	// TODO: render game with dt
-	last = now;
-	requestAnimationFrame(GAME.update);
-};
 
-var paddleTestStep = 200;
+	FPSinfo.updateFPS(timestamp);
+	requestAnimationFrame(GAME.gameLoop);
+};
 
 // Simulation
 GAME.updatePaddle = function (step) {
 	this.paddle.setX(GAME.paddle.position.x + paddleTestStep * step);
 	if (this.paddle.position.x <= 0 || this.paddle.position.x + this.paddle.width >= this.stage.width) {
 		paddleTestStep *= -1;
+	}
+};
+
+GAME.updateBall = function (step) {
+	this.ball.setY(GAME.ball.position.y + ballStep * step);
+	// TODO: collision detection and bouncing
+	if (this.ball.position.y <= 0 || this.ball.position.y + this.ball.height >= this.stage.height) {
+		ballStep *= -1;
 	}
 };

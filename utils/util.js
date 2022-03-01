@@ -74,28 +74,26 @@ var FPSinfo = {
 	fps: 0,
 	box: undefined,
 	startTime: undefined,
+	secondsPassed: 0,
 	counter: 0,
+	secondsPassed: 0,
+	oldTimeStamp: 0,
 	createFPSbox: function () {
-		box = document.createElement("div");
-		box.style.position = "absolute";
-		box.style.top = asPx(10);
-		box.style.left = asPx(config.world.width - 60);
-		box.style.border = "1px solid black";
-		box.style.zIndex = "999";
-		box.id = "fps"
-		box.innerText = "fps: ";
-		document.body.appendChild(box);
-		this.startTime = new Date().getTime();
+		FPSinfo.box = document.createElement("div");
+		FPSinfo.box.style.position = "absolute";
+		FPSinfo.box.style.top = asPx(0);
+		FPSinfo.box.style.left = asPx(0);
+		FPSinfo.box.style.zIndex = "999";
+		FPSinfo.box.id = "fps"
+		FPSinfo.box.innerText = "fps: ";
+		document.body.appendChild(FPSinfo.box);
+		FPSinfo.startTime = new Date().getTime();
 	},
-	updateFPS: function () {
-		this.counter++;
-		var now = new Date().getTime();
-		if (now - this.startTime > 1000) {
-			this.startTime = now;
-			this.fps = this.counter;
-			box.innerText = "fps: " + this.fps;
-			this.counter = 0;
-		}
+	updateFPS: function (timestamp) {
+		FPSinfo.secondsPassed = (timestamp - FPSinfo.oldTimeStamp) / 1000;
+		FPSinfo.oldTimeStamp = timestamp;
+		FPSinfo.fps = Math.round(1 / this.secondsPassed);
+		FPSinfo.box.innerText = "fps: " + FPSinfo.fps;
 	}
 }
 
@@ -107,6 +105,6 @@ var FPSinfo = {
  * Get current time in milliseconds.
  * @returns {number}
  */
-function timestamp() {
+function currentTime() {
 	return window.performance && window.performance.now ? window.performance.now() : new Date().getTime();
 }
