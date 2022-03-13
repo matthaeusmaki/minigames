@@ -2,27 +2,47 @@
  * This script contains functions to work with vectors.
  * It based on the book "2D Game Collision Detection" by Thomas Schwarzl
  */
- 
+
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //	Vector2D and helper functions
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
- 
- /**
-  * 2D-Vector prototype. Initialize with new
-  * @param x : x coordinate
-  * @param y : y coordinate
-  */
- function Vector2D(x, y) {
+
+/**
+ * 2D-Vector prototype. Initialize with new
+ * @param x : x coordinate
+ * @param y : y coordinate
+ */
+function Vector2D(x, y) {
 	this.x = x;
 	this.y = y;
 }
 
- /**
- * Returns true if float f1 and float f2 are equal with an tolerance of 1.0/8192.0, false otherwise
- * @param f1 : float
- * @param f2 : float
- * @return boolean
+/**
+ * Returns a new Vector2D which contains the sum of 2 Vector2D
+ * @param v1 : first 2D vector
+ * @param v2 : second 2D vector
+ * @return Vector2D
  */
+function addVector(a, b) {
+	return new Vector2D(a.x + b.x, a.y + b.y);
+}
+
+/**
+ *	Returns a new Vector2D which contains the difference of 2 Vector2D
+ * @param v1 : first 2d vector
+ * @param v2 : second 2d vector
+ * @return Vector2D
+ */
+function subtractVector(a, b) {
+	return new Vector2D(a.x - b.x, a.y - b.y);
+}
+
+/**
+* Returns true if float f1 and float f2 are equal with an tolerance of 1.0/8192.0, false otherwise
+* @param f1 : float
+* @param f2 : float
+* @return boolean
+*/
 function equalFloats(f1, f2) {
 	var threshold = 1.0 / 8192.0;
 	return Math.abs(f1 - f2) < threshold;
@@ -34,28 +54,8 @@ function equalFloats(f1, f2) {
  * @param v2 : Vector2D
  * @return boolean
  */
-function equalVectors(v1, v2) {
-	return equalFloats(v1.x, v2.x) && equalFloats(v1.y, v2.y);
-}
- 
- /**
-  * Returns a new Vector2D which contains the sum of 2 Vector2D
-  * @param v1 : first 2D vector
-  * @param v2 : second 2D vector
-  * @return Vector2D
-  */
-function addVector(v1, v2) {
-	return new Vector2D(v1.x + v2.x, v1.y + v2.y);
-}
-
-/**
- *	Returns a new Vector2D which contains the difference of 2 Vector2D
- * @param v1 : first 2d vector
- * @param v2 : second 2d vector
- * @return Vector2D
- */
-function subtractVector(v1, v2) {
-	return new Vector2D(v1.x - v2.x, v1.y - v2.y);
+function equalVectors(a, b) {
+	return equalFloats(va1.x, b.x) && equalFloats(a.y, b.y);
 }
 
 /**
@@ -68,7 +68,7 @@ function negateVector(v) {
 }
 
 /**
- *	Returns a new Vector2D which the vecor v multiplied by a scalar
+ * Returns a new Vector2D which the vector v multiplied by a scalar
  * @param v : Vector2D to multiply
  * @param scalar : float to multiply with
  * @return Vector2D
@@ -78,20 +78,21 @@ function multiplyVector(v, scalar) {
 }
 
 /**
- *	Returns a new Vector2D which is the divided vector v by an divisor
+ * Returns a new Vector2D which is the divided vector v by an divisor.
+ * If the divisor is 0 the returned value is a 0-vecotor (x:0, y:0). Pointing nowhere.
  * @param v : Vector2D to divide
  * @param divisor : float to divide with
  * @return Vector2D
  */
 function divideVector(v, divisor) {
 	if (divisor == 0) {
-		return new Vector2D(0,0); // the vector points nowhere
+		return new Vector2D(0, 0); // the vector points nowhere
 	}
 	return new Vector2D(v.x / divisor, v.y / divisor);
 }
 
 /**
- *	Returns the length of the vector v
+ * Returns the length of the vector v
  * @param v : Vector2D
  * @return float
  */
@@ -119,7 +120,7 @@ function unitVector(v) {
  * @param degrees : float
  * @return float
  */
-function degreesToRadian(degrees) { 
+function degreesToRadian(degrees) {
 	return degrees * Math.PI / 180.0;
 }
 
@@ -133,7 +134,8 @@ function radianToDegrees(radian) {
 }
 
 /**
- * Returns a rotated Vector2D
+ * Returns a rotated Vector2D.
+ * Positive degrees rotate counterclockwise.
  * @param v : Vector2D to rotate
  * @param degrees : rotate by this angle (not radian)
  * @return Vector2D
@@ -160,8 +162,8 @@ function rotateVector90(v) {
  * @param v2: Vector2D
  * @return float
  */
-function dotProduct(v1, v2) {
-	return v1.x * v2.x + v1.y * v2.y;
+function dotProduct(a, b) {
+	return a.x * b.x + a.y * b.y;
 }
 
 /**
@@ -198,11 +200,11 @@ function projectVector(project, onto) {
 //	Shapes
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
- /**
- * Line prototype
- * @param base : Vector2D
- * @param direction : Vector2D
- */
+/**
+* Line prototype
+* @param base : Vector2D
+* @param direction : Vector2D
+*/
 function Line(base, direction) {
 	this.base = base;
 	this.direction = direction;
@@ -284,12 +286,12 @@ function rectanglesCollide(a, b) {
 	var aRight = aLeft + a.size.x;
 	var bLeft = b.origin.x;
 	var bRight = bLeft + b.size.x;
-	
+
 	var aBottom = a.origin.y;
 	var aTop = aBottom + a.size.y;
 	var bBottom = b.origin.y;
 	var bTop = bBottom + b.size.y;
-	
+
 	return overlapping(aLeft, aRight, bLeft, bRight) && overlapping(aBottom, aTop, bBottom, bTop);
 }
 

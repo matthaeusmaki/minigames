@@ -169,3 +169,7 @@ GAME.updateBall = function (step) {
 		ballStep *= -1;
 	}
 };
+
+GAME.colliding = function (obj1, obj2) {
+	obj1.position.y
+}
