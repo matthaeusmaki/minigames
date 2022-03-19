@@ -33,24 +33,32 @@ function runTests() {
 	let failures = 0;
 	let allTests = Object.getOwnPropertyNames(vectorTests);
 	let resultList = [];
+	let resultDom = document.getElementById("resultId");
+	let resultListDom = document.getElementById("resultListId");
 	for (let t in allTests) {
 		try {
 			vectorTests[allTests[t]]();
 		} catch (err) {
+			let testColor;
 			if (err.type == FAILED) {
 				failures++;
+				testColor = "#ffe300";
 			} else {
 				errors++;
+				testColor = "red";
 			}
 			resultList.push(allTests[t] + " has failed: " + err.message);
 			console.warn(resultList[resultList.length - 1]);
+			let d = document.createElement("div");
+			d.innerHTML = allTests[t];
+			d.style = "background-color: " + testColor + "; margin-bottom: 2px; padding: 3px;"
+			resultListDom.appendChild(d);
 		}
 	}
 	let testsTxt = allTests.length - errors - failures + "/" + allTests.length + " tests successfull";
 	let failuresTxt = failures + " failures";
 	let errorsTxt = errors + " errors";
 	console.log(testsTxt + ", " + failuresTxt + ", " + errorsTxt);
-	let p = document.getElementById("resultListId");
 
 	let color = "#00db00";
 	if (errors > 0) {
@@ -62,22 +70,15 @@ function runTests() {
 	let div = document.createElement("div");
 	div.innerHTML = testsTxt;
 	div.style = "background-color: " + color + "; padding: 5px;";
-	p.appendChild(div);
+	resultDom.appendChild(div);
 
 	let div1 = document.createElement("div");
 	div1.innerHTML = failuresTxt;
-	p.appendChild(div1);
+	resultDom.appendChild(div1);
 
 	let div2 = document.createElement("div");
 	div2.innerHTML = errorsTxt;
-	p.appendChild(div2);
-
-	for (let r in resultList) {
-		let d = document.createElement("div");
-		d.innerHTML = resultList[r];
-		d.style = "background-color: #ffe300; margin-bottom: 2px; padding: 3px;"
-		p.appendChild(d);
-	}
+	resultDom.appendChild(div2);
 }
 
 let vectorTests = {

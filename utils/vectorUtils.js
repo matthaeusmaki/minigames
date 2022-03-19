@@ -55,7 +55,7 @@ function equalFloats(f1, f2) {
  * @return boolean
  */
 function equalVectors(a, b) {
-	return equalFloats(va1.x, b.x) && equalFloats(a.y, b.y);
+	return equalFloats(a.x, b.x) && equalFloats(a.y, b.y);
 }
 
 /**
