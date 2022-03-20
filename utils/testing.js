@@ -50,7 +50,7 @@ function runTests() {
 			resultList.push(allTests[t] + " has failed: " + err.message);
 			console.warn(resultList[resultList.length - 1]);
 			let d = document.createElement("div");
-			d.innerHTML = allTests[t];
+			d.innerHTML = allTests[t] + ": " + err;
 			d.style = "background-color: " + testColor + "; margin-bottom: 2px; padding: 3px;"
 			resultListDom.appendChild(d);
 		}
@@ -288,39 +288,52 @@ let vectorTests = {
 		assert(equalVectors(projectVector(b, a), new Vector2D(6.390532544378699, 2.6627218934911245)), "Projection is wrong");
 	},
 
-	testRectangleCollision: function () {
+	testRectangleToRectangleCollision: function () {
 		let a = new Rectangle(new Vector2D(1, 1), new Vector2D(4, 4));
 		let b = new Rectangle(new Vector2D(2, 2), new Vector2D(5, 5));
-		let c = new Rectangle(new Vector2D(6, 4), new Vector2D(4, 2));
-		assert(rectanglesCollide(a, b), "Should collide");
-		assert(rectanglesCollide(b, c), "Should collide");
-		assertNot(rectanglesCollide(a, c), "Should not collide");
+		assert(rectanglesCollide(a, b), "a and b should collide");
 	},
 
-	testCircleCollision: function () {
+	testRectangleToRectangleNoCollision: function () {
+		let a = new Rectangle(new Vector2D(1, 1), new Vector2D(4, 4));
+		let b = new Rectangle(new Vector2D(6, 4), new Vector2D(4, 2));
+		assertNot(rectanglesCollide(a, b), "a and b should not collide");
+	},
+
+	testCircleToCircleCollision: function () {
 		let a = new Circle(new Vector2D(4, 4), 2);
 		let b = new Circle(new Vector2D(7, 4), 2);
-		let c = new Circle(new Vector2D(10, 4), 2);
-		assert(circlesCollide(a, b), "Should collide");
-		assert(circlesCollide(b, c), "Should collide");
-		assertNot(circlesCollide(a, c), "Should not collide");
+		assert(circlesCollide(a, b), "a and b should collide");
 	},
 
-	testPointCollision: function () {
+	testCircleToCircleNoCollision: function () {
+		let a = new Circle(new Vector2D(4, 4), 2);
+		let b = new Circle(new Vector2D(10, 4), 2);
+		assertNot(circlesCollide(a, b), "a and b should not collide");
+	},
+
+	testPointToPointCollision: function () {
 		let a = new Vector2D(2, 3);
 		let b = new Vector2D(2, 3);
-		let c = new Vector2D(3, 4);
-		assert(pointsCollide(a, b), "Should collide");
-		assertNot(pointsCollide(b, c), "Should not collide");
-		assertNot(pointsCollide(a, c), "Should not collide");
+		assert(pointsCollide(a, b), "a and b should collide");
+	},
+
+	testPointToPointNoCollision: function () {
+		let a = new Vector2D(2, 3);
+		let b = new Vector2D(3, 4);
+		assertNot(pointsCollide(a, b), "a and b should not collide");
 	},
 
 	testParallelVectors: function () {
 		let a = new Vector2D(2, 2);
 		let b = new Vector2D(3, 3);
-		let c = new Vector2D(1, 2);
-		assert(parallelVectors(a, b), "Vectors should be parallel");
-		assertNot(parallelVectors(a, c), "Vectors should not be parallel");
+		assert(parallelVectors(a, b), "a and b should be parallel");
+	},
+
+	testVectorsNotParallel: function () {
+		let a = new Vector2D(2, 2);
+		let b = new Vector2D(1, 2);
+		assertNot(parallelVectors(a, b), "a and b should not be parallel");
 	},
 
 	testLinesCollide: function () {
@@ -343,14 +356,14 @@ let vectorTests = {
 	},
 
 	testSortRangeMinMax: function () {
-		let r = new Range(1, 2);
+		let r = new RangeMinMax(1, 2);
 		let sorted = sortRange(r);
 		assert(equalFloats(r.minimum, sorted.minimum), "Minimum is wrong");
 		assert(equalFloats(r.maximum, sorted.maximum), "Maximum is wrong");
 	},
 
 	testSortRangeMaxMin: function () {
-		let r = new Range(6, 0);
+		let r = new RangeMinMax(6, 0);
 		let sorted = sortRange(r);
 		assert(equalFloats(r.minimum, sorted.maximum), "Minimum is wrong");
 		assert(equalFloats(r.maximum, sorted.minimum), "Maximum is wrong");
@@ -364,5 +377,17 @@ let vectorTests = {
 		let s1 = new Segment(a, b);
 		let s2 = new Segment(c, d);
 		assertNot(segmentsCollide(s1, s2), "No collision between Segments expected");
+	},
+
+	testOrientedRectanglesCollide: function () {
+		let a = new OrientedRectangle(new Vector2D(2, 2), new Vector2D(1, 1), 10);
+		let b = new OrientedRectangle(new Vector2D(3, 3), new Vector2D(1, 1), 10);
+		assert(orientedRectanglesCollide(a, b), "a and b should collide");
+	},
+
+	testOrientedRectanglesNotColliding: function () {
+		let a = new OrientedRectangle(new Vector2D(3, 5), new Vector2D(1, 3), 15);
+		let b = new OrientedRectangle(new Vector2D(10, 5), new Vector2D(2, 2), -15);
+		assertNot(orientedRectanglesCollide(a, b), "a and b should not collide");
 	}
 }

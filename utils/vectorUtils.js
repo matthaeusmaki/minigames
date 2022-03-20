@@ -9,8 +9,8 @@
 
 /**
  * 2D-Vector prototype. Initialize with new
- * @param x : x coordinate
- * @param y : y coordinate
+ * @param {float} x : x coordinate
+ * @param {float} y : y coordinate
  */
 function Vector2D(x, y) {
 	this.x = x;
@@ -19,9 +19,9 @@ function Vector2D(x, y) {
 
 /**
  * Returns a new Vector2D which contains the sum of 2 Vector2D
- * @param v1 : first 2D vector
- * @param v2 : second 2D vector
- * @return Vector2D
+ * @param {Vector2D} a : first 2D vector
+ * @param {Vector2D} b : second 2D vector
+ * @returns {Vector2D} sum of two vectors
  */
 function addVector(a, b) {
 	return new Vector2D(a.x + b.x, a.y + b.y);
@@ -29,9 +29,9 @@ function addVector(a, b) {
 
 /**
  *	Returns a new Vector2D which contains the difference of 2 Vector2D
- * @param v1 : first 2d vector
- * @param v2 : second 2d vector
- * @return Vector2D
+ * @param {Vector2D} a : first 2d vector
+ * @param {Vector2D} b : second 2d vector
+ * @return {Vector2D} difference of two vectors
  */
 function subtractVector(a, b) {
 	return new Vector2D(a.x - b.x, a.y - b.y);
@@ -39,20 +39,20 @@ function subtractVector(a, b) {
 
 /**
 * Returns true if float f1 and float f2 are equal with an tolerance of 1.0/8192.0, false otherwise
-* @param f1 : float
-* @param f2 : float
-* @return boolean
+* @param {float} f1 : float
+* @param {float} f2 : float
+* @return {boolean} true if f1 and f2 are equal
 */
 function equalFloats(f1, f2) {
-	var threshold = 1.0 / 8192.0;
+	var threshold = 0.0001220703125; // 1.0 / 8192.0;
 	return Math.abs(f1 - f2) < threshold;
 }
 
 /**
- *	If Vector2D v1 is the same as Vector2D v2, this function does nothing. Otherwise it throws an error.
- * @param v1 : Vector2D
- * @param v2 : Vector2D
- * @return boolean
+ *	If Vector2D a is the same as Vector2D b, this function returns true. Otherwise false.
+ * @param {Vector2D} a : Vector2D
+ * @param {Vector2D} b : Vector2D
+ * @return {boolean} true if a and b are equal
  */
 function equalVectors(a, b) {
 	return equalFloats(a.x, b.x) && equalFloats(a.y, b.y);
@@ -60,8 +60,8 @@ function equalVectors(a, b) {
 
 /**
  * Returns a new Vector2D which negated
- * @param v : Vector2D
- * @return Vector2D
+ * @param {Vector2D} v : Vector2D
+ * @return {Vector2D} new negated Vector
  */
 function negateVector(v) {
 	return new Vector2D(-v.x, -v.y);
@@ -202,8 +202,8 @@ function projectVector(project, onto) {
 
 /**
 * Line prototype
-* @param base : Vector2D
-* @param direction : Vector2D
+* @param {Vector2D} base : Vector2D
+* @param {Vector2D} direction : Vector2D
 */
 function Line(base, direction) {
 	this.base = base;
@@ -212,8 +212,8 @@ function Line(base, direction) {
 
 /**
  * Linesegment prototype
- * @param point1 : Vector2D
- * @param point2 : Vector2D
+ * @param {Vector2D} point1 : Vector2D
+ * @param {Vector2D} point2 : Vector2D
  */
 function Segment(point1, point2) {
 	this.point1 = point1;
@@ -222,8 +222,8 @@ function Segment(point1, point2) {
 
 /**
  * Circle prototype
- * @param center : Vector2D
- * @param radius : float
+ * @param {Vector2D} center : Vector2D
+ * @param {float} radius : float
  */
 function Circle(center, radius) {
 	this.center = center;
@@ -232,8 +232,8 @@ function Circle(center, radius) {
 
 /**
  * Rectangle prototype
- * @param origin : Vector2D
- * @param size : Vector2D
+ * @param {Vector2D} origin : Vector2D
+ * @param {Vector2D} size : Vector2D
  */
 function Rectangle(origin, size) {
 	this.origin = origin;
@@ -242,9 +242,9 @@ function Rectangle(origin, size) {
 
 /**
  * Oriented rectangle prototype
- * @param center : Vector2D center of the rectangle
- * @param halfExtend : Vector2D half the size
- * @param rotation : float 
+ * @param {Vector2D} center : center of the rectangle
+ * @param {Vector2D} halfExtend : half the size
+ * @param {float} rotation : rotation angle 
  */
 function OrientedRectangle(center, halfExtend, rotation) {
 	this.center = center;
@@ -252,7 +252,7 @@ function OrientedRectangle(center, halfExtend, rotation) {
 	this.rotation = rotation;
 }
 
-function Range(min, max) {
+function RangeMinMax(min, max) {
 	this.minimum = min;
 	this.maximum = max;
 }
@@ -385,20 +385,20 @@ function onOneSide(axis, s) {
  */
 function sortRange(r) {
 	if (r.minimum > r.maximum) {
-		return new Range(r.maximum, r.minimum);
+		return new RangeMinMax(r.maximum, r.minimum);
 	}
 	return r;
 }
 
 /**
- * Projects a Segmonte onto the given Vector2D
+ * Projects a Segment onto the given Vector2D
  * @param s : Segment
  * @param onto : Vector2D
  * @return Range
  */
 function projectSegment(s, onto) {
 	var ontoUnit = unitVector(onto);
-	var r = new Range(
+	var r = new RangeMinMax(
 		dotProduct(ontoUnit, s.point1),
 		dotProduct(ontoUnit, s.point2)
 	);
@@ -417,9 +417,9 @@ function overlappingRanges(a, b) {
 
 /**
  * Checks collision between two Segments
- * @param a : Segment
- * @param b : Segment
- * @return boolean
+ * @param {Segment} a : Segment
+ * @param {Segment} b : Segment
+ * @return {boolean}
  */
 function segmentsCollide(a, b) {
 	var axisA = new Line(a.point1, subtractVector(a.point2, a.point1));
@@ -437,4 +437,96 @@ function segmentsCollide(a, b) {
 	} else {
 		return true;
 	}
+}
+
+// oriented-rectangle - oriented-rectangle
+
+/**
+ * TODO
+ * @param {RangeMinMax} a 
+ * @param {RangeMinMax} b 
+ * @returns {RangeMinMax}
+ */
+function rangeHull(a, b) {
+	return new RangeMinMax(
+		a.minimum < b.minimum ? a.minimum : b.minimum,
+		a.maximum > b.maximum ? a.maximum : b.maximum
+	);
+}
+
+/**
+ * TODO
+ * @param {OrientedRectangle} r 
+ * @param {number} nr 
+ * @returns {Segment}
+ */
+function orientedRectangleEdge(r, nr) {
+	let a = new Vector2D(r.halfExtend.x, r.halfExtend.y);
+	let b = new Vector2D(r.halfExtend.x, r.halfExtend.y);
+
+	switch (nr % 4) {
+		case 0:
+			a.x = -a.x;
+			break;
+		case 1:
+			b.y = -b.y;
+			break;
+		case 2:
+			a.y = -a.y;
+			b = negateVector(b);
+			break;
+		default:
+			a = negateVector(a);
+			b.x = -b.x;
+			break;
+	}
+	a = rotateVector(a, r.rotation);
+	a = addVector(a, r.center);
+
+	b = rotateVector(b, r.rotation);
+	b = addVector(b, r.center);
+
+	return new Segment(a, b);
+}
+
+/**
+ * TODO
+ * @param {Segment} axis 
+ * @param {OrientedRectangle} r 
+ * @returns {boolean}
+ */
+function separatingAxisForOrientedRectangle(axis, r) {
+	let rEdge0 = orientedRectangleEdge(r, 0);
+	let rEdge2 = orientedRectangleEdge(r, 2);
+	let n = subtractVector(axis.point1, axis.point2);
+
+	let axisRange = projectSegment(axis, n);
+	let r0Range = projectSegment(rEdge0, n);
+	let r2Range = projectSegment(rEdge2, n);
+	let rProjection = rangeHull(r0Range, r2Range);
+
+	return !overlappingRanges(axisRange, rProjection);
+}
+
+/**
+ * TODO
+ * @param {OrientedRectangle} a 
+ * @param {OrientedRectangle} b 
+ * @returns {boolean}
+ */
+function orientedRectanglesCollide(a, b) {
+	let edge = orientedRectangleEdge(a, 0);
+	if (separatingAxisForOrientedRectangle(edge, b)) {
+		return false;
+	}
+	edge = orientedRectangleEdge(a, 1);
+	if (separatingAxisForOrientedRectangle(edge, b)) {
+		return false;
+	}
+	edge = orientedRectangleEdge(b, 0);
+	if (separatingAxisForOrientedRectangle(edge, a)) {
+		return false;
+	}
+	edge = orientedRectangleEdge(b, 1);
+	return !separatingAxisForOrientedRectangle(edge, a);
 }
