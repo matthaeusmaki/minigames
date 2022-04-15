@@ -48,6 +48,14 @@ function equalFloats(f1, f2) {
     return Math.abs(f1 - f2) < threshold;
 }
 
+function lessOrEqualFloats(f1, f2) {
+    return f1 < f2 || equalFloats(f1, f2);
+}
+
+function greaterOrEqualFloats(f1, f2) {
+    return f1 > f2 || equalFloats(f1, f2);
+}
+
 /**
  *    If Vector2D a is the same as Vector2D b, this function returns true. Otherwise false.
  * @param {Vector2D} a : Vector2D

@@ -53,7 +53,9 @@ function createElement(id, styleClass, width, height, position, color) {
 }
 
 function removeElement(element) {
-    document.body.removeChild(element);
+    if (document.getElementById(element.id)) {
+        document.body.removeChild(element);
+    }
 }
 
 
