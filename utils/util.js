@@ -110,3 +110,27 @@ var FPSinfo = {
 function currentTime() {
     return window.performance && window.performance.now ? window.performance.now() : new Date().getTime();
 }
+
+// ///////////////////////////////////////////////////////////////////
+// Controls
+// //////////////////////////////////////////////////////////////////
+
+const ARROW_UP = 38;
+const ARROW_DOWN = 40;
+const ARROW_LEFT = 37;
+const ARROW_RIGHT = 39;
+const SPACE = 32;
+
+function keydown(event, keyMap) {
+    let keyCode = event.keyCode;
+    if (keyCode) {
+        keyMap[keyCode].keydown();
+    }
+}
+
+function keyup(event, keyMap) {
+    let keyCode = event.keyCode;
+    if (keyCode) {
+        keyMap[keyCode].keyup();
+    }
+}

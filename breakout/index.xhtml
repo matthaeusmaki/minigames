@@ -9,7 +9,8 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css" />
 </head>
 
-<body>
+<body onkeydown="keydown(event, GAME.keyMap)" 
+      onkeyup="keyup(event, GAME.keyMap)">
     <div id="main">
         <script>
             GAME.init();

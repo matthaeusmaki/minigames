@@ -6,7 +6,8 @@
 // Game Objects
 // //////////////////////////////////////////////////////////////////////////////////////
 let GAME = {};
-let paddleTestStep = 200;
+let paddleDirection = 0;
+const paddleSpeed = 500;
 let ballStep = 200;
 let stageWidth = 800;
 let stageHeight = 600;
@@ -112,6 +113,54 @@ GAME.ball = {
     }
 };
 
+GAME.keyMap = {
+    // ARROW_UP
+    38: {
+        keydown: function () {
+            console.log("start Up");
+        },
+        keyup: function () {
+            console.log("stop Up");
+        }
+    },
+    // ARROW_DOWN
+    40: {
+        keydown: function () {
+            console.log("start Down");
+        },
+        keyup: function () {
+            console.log("stop Down");
+        }
+    },
+    // ARROW_LEFT
+    37: {
+        keydown: function () {
+            paddleDirection = -1;
+        },
+        keyup: function () {
+            paddleDirection = 0;
+        }
+    },
+    // ARROW_RIGHT
+    39: {
+        keydown: function () {
+            paddleDirection = 1;
+        },
+        keyup: function () {
+            paddleDirection = 0;
+        }
+    },
+    // SPACE
+    32: {
+        keydown: function () {
+            console.log("start Space");
+        },
+        keyup: function () {
+            console.log("stop Space");
+        }
+    }
+}
+
 // //////////////////////////////////////////////////////////////////////////////////////
 // Init
 // //////////////////////////////////////////////////////////////////////////////////////
@@ -138,7 +187,7 @@ GAME.createPaddle = function () {
     this.paddle.init(
         this.createGameObject(this.paddle),
         this.stage.width / 2 - this.paddle.width / 2,
-        this.stage.height - this.paddle.height - 10
+        this.stage.height - this.paddle.height - 30
     );
 };
 
@@ -166,7 +215,6 @@ GAME.createBlocks = function (id, pos) {
             block.collisionBody = new Rectangle(block.position, block.size);
 
             block.onCollision = function () {
-                console.log("--- BLOCK " + this.id + " ---")
                 this.model.style.background = randomColorCode();
                 let index;
                 for (b in GAME.blocks.list) {
@@ -214,10 +262,8 @@ GAME.gameLoop = function (timestamp) {
 
 // Simulation
 GAME.updatePaddle = function (step) {
-    this.paddle.setX(GAME.paddle.position.x + paddleTestStep * step);
-    if (this.paddle.position.x <= 0 || this.paddle.position.x + this.paddle.width >= this.stage.width) {
-        paddleTestStep *= -1;
-    }
+    let pos = GAME.paddle.position.x + paddleSpeed * paddleDirection * step
+    this.paddle.setX(Math.max(0, Math.min(pos, this.stage.width - GAME.paddle.width)));
 };
 
 GAME.updateBall = function (step) {
@@ -271,6 +317,10 @@ GAME.calculateDirection = function (originDirection, ball, collidingObject) {
         originDirection.y * (top || bottom ? -1 : 1)
     );
 };
+
+// //////////////////////////////////////////////////////////////////////////////////////
+// Helper
+// //////////////////////////////////////////////////////////////////////////////////////
 
 function randomColorCode() {
     var makeColorCode = '0123456789ABCDEF';
