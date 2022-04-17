@@ -14,7 +14,8 @@ let stageHeight = 600;
 let now,
     dt = 0,
     last,
-    step = 1 / 60;
+    step = 1 / 60,
+    isPause = false;
 
 GAME.stage = {
     id: "stageId",
@@ -35,7 +36,7 @@ GAME.stage = {
         {
             // bottom
             collisionBody: new Rectangle(new Vector2D(0, stageHeight), new Vector2D(stageWidth, 10)),
-            onCollision: function () { console.log("bottom"); }
+            onCollision: function () { GAME.lose(); }
         },
         {
             // left
@@ -51,8 +52,11 @@ GAME.stage = {
 
 GAME.blocks = {
     list: [],
-    width: 10,
-    height: 10,
+    width: 20,
+    height: 20,
+    gap: 5,
+    columns: 30,
+    rows: 10,
     size: new Vector2D(0, 0)
 };
 
@@ -114,24 +118,6 @@ GAME.ball = {
 };
 
 GAME.keyMap = {
-    // ARROW_UP
-    38: {
-        keydown: function () {
-            console.log("start Up");
-        },
-        keyup: function () {
-            console.log("stop Up");
-        }
-    },
-    // ARROW_DOWN
-    40: {
-        keydown: function () {
-            console.log("start Down");
-        },
-        keyup: function () {
-            console.log("stop Down");
-        }
-    },
     // ARROW_LEFT
     37: {
         keydown: function () {
@@ -150,16 +136,12 @@ GAME.keyMap = {
             paddleDirection = 0;
         }
     },
-    // SPACE
     32: {
         keydown: function () {
-            console.log("start Space");
-        },
-        keyup: function () {
-            console.log("stop Space");
+            isPause = !isPause;
         }
     }
-}
+};
 
 // //////////////////////////////////////////////////////////////////////////////////////
 // Init
@@ -193,12 +175,11 @@ GAME.createPaddle = function () {
 
 GAME.createBlocks = function (id, pos) {
     let basePos = { x: 30, y: 30 };
-    let gap = 5;
-    for (let i = 0; i < 49; i++) {
-        for (let j = 0; j < 10; j++) {
+    for (let i = 0; i < this.blocks.columns; i++) {
+        for (let j = 0; j < this.blocks.rows; j++) {
             let position = new Vector2D(
-                basePos.x + i * (this.blocks.width + gap),
-                basePos.y + j * (this.blocks.height + gap)
+                basePos.x + i * (this.blocks.width + this.blocks.gap),
+                basePos.y + j * (this.blocks.height + this.blocks.gap)
             );
             let block = {
                 id: "blockId_" + i + "_" + j,
@@ -206,16 +187,16 @@ GAME.createBlocks = function (id, pos) {
                 width: this.blocks.width,
                 height: this.blocks.height,
                 position: {
-                    x: basePos.x + i * (this.blocks.width + gap),
-                    y: basePos.y + j * (this.blocks.height + gap)
+                    x: basePos.x + i * (this.blocks.width + this.blocks.gap),
+                    y: basePos.y + j * (this.blocks.height + this.blocks.gap)
                 }
             }
             block.size = new Vector2D(this.blocks.width, this.blocks.height);
             block.model = this.createGameObject(block);
+            block.model.style.background = randomColorCode();
             block.collisionBody = new Rectangle(block.position, block.size);
 
             block.onCollision = function () {
-                this.model.style.background = randomColorCode();
                 let index;
                 for (b in GAME.blocks.list) {
                     if (GAME.blocks.list[b].id === this.id) {
@@ -248,12 +229,17 @@ GAME.createGameObject = function (obj) {
 
 // Gameloop
 GAME.gameLoop = function (timestamp) {
-    dt = dt + Math.min(1, (timestamp - last) / 1000);
+    if (isPause) {
+        dt = 0;
+    } else {
+        dt = dt + Math.min(1, (timestamp - last) / 1000);
+    }
     last = timestamp;
     while (dt > step) {
         dt = dt - step;
         GAME.updatePaddle(step);
         GAME.updateBall(step);
+        GAME.checkWinState();
     }
 
     FPSinfo.updateFPS(timestamp);
@@ -263,12 +249,12 @@ GAME.gameLoop = function (timestamp) {
 // Simulation
 GAME.updatePaddle = function (step) {
     let pos = GAME.paddle.position.x + paddleSpeed * paddleDirection * step
-    this.paddle.setX(Math.max(0, Math.min(pos, this.stage.width - GAME.paddle.width)));
+    this.paddle.setX(Math.max(0, Math.min(pos, this.stage.width - this.paddle.width)));
 };
 
 GAME.updateBall = function (step) {
     this.ball.setX(this.ball.position.x + this.ball.direction.x * step);
-    this.ball.setY(GAME.ball.position.y + this.ball.direction.y * step);
+    this.ball.setY(this.ball.position.y + this.ball.direction.y * step);
 
     if (this.ball.position.y <= 0 || this.ball.position.y + this.ball.height >= this.stage.height) {
         ballStep *= -1;
@@ -316,6 +302,31 @@ GAME.calculateDirection = function (originDirection, ball, collidingObject) {
         originDirection.x * (left || right ? -1 : 1),
         originDirection.y * (top || bottom ? -1 : 1)
     );
+};
+
+GAME.checkWinState = function () {
+    // win state
+    if (this.blocks.list.length == 0) {
+        this.win();
+    }
+};
+
+GAME.win = function () {
+    console.log("Game Over! You won!");
+};
+
+GAME.lose = function () {
+    console.log("Game Over! You lose!")
+    isPause = true;
+    let element = document.createElement("div");
+    element.innerHTML = "GAME OVER";
+    element.id = "gameOverId";
+    element.className = "gameOver";
+    element.style.position = "absolute";
+    element.style.top = "3em";
+    element.style.left = "2.3em";
+    element.style.fontSize = "4.5em";
+    document.body.appendChild(element);
 };
 
 // //////////////////////////////////////////////////////////////////////////////////////

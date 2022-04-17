@@ -123,14 +123,14 @@ const SPACE = 32;
 
 function keydown(event, keyMap) {
     let keyCode = event.keyCode;
-    if (keyCode) {
+    if (keyCode && keyMap[keyCode] && keyMap[keyCode].keydown) {
         keyMap[keyCode].keydown();
     }
 }
 
 function keyup(event, keyMap) {
     let keyCode = event.keyCode;
-    if (keyCode) {
+    if (keyCode && keyMap[keyCode] && keyMap[keyCode].keyup) {
         keyMap[keyCode].keyup();
     }
 }
