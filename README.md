@@ -6,7 +6,7 @@ Making little util functions for game development (game engine wannabe ;))
 
 Contains
 - Flappybird clone
-- Breakout clone (work in progress)
+- Breakout clone
 
 Some reference notes:
 - http://www.isaacsukin.com/news/2015/01/detailed-explanation-javascript-game-loops-and-timing
