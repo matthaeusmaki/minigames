@@ -193,7 +193,6 @@ GAME.createBlocks = function (id, pos) {
             }
             block.size = new Vector2D(this.blocks.width, this.blocks.height);
             block.model = this.createGameObject(block);
-            block.model.style.background = randomColorCode();
             block.collisionBody = new Rectangle(block.position, block.size);
 
             block.onCollision = function () {
