@@ -8,7 +8,7 @@ Contains
 - Flappybird clone
 - Breakout clone
 
-Playable on [this page][http://matthaeusmaki.github.io/minigames/]
+Playable here: http://matthaeusmaki.github.io/minigames/
 
 Some reference notes:
 - http://www.isaacsukin.com/news/2015/01/detailed-explanation-javascript-game-loops-and-timing
