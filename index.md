@@ -1,2 +1,3 @@
-<h1>Hello World</h1>
-[breakout](http://matthaeusmaki.github.io/minigames/breakout/index.html)
+<h1>Minigames</h1>
+[flappy bird](http://matthaeusmaki.github.io/minigames/flappyBird/index.xhtml)
+[breakout](http://matthaeusmaki.github.io/minigames/breakout/index.xhtml)
